@@ -1,0 +1,29 @@
+.first-nav {
+    display: flex;
+    gap: 250px;
+    align-items: center;
+    border-bottom: 1px solid gray;
+    margin: 5px auto;
+    padding-bottom: 13px;
+}
+.nav-flex {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.first-nav img{
+    border-radius: 50%;
+}
+.spann {
+    font-family: algerian;
+    font-size: larger;
+    font-weight: 900;
+}
+.second-nav ul{
+    display: flex;
+    gap: 50px;
+}
+.second-nav li{
+    font-weight: 600;
+    font-size: 20px;
+}
