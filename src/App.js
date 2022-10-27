@@ -1,12 +1,12 @@
 import './App.css';
-import CustomButton from './components/customButton/CustomButton';
-import CustomInput from './components/customInput/CustomInput';
+import HomePage from './pages/homePage/HomePage';
+// import CustomButton from './components/customButton/CustomButton';
+// import CustomInput from './components/customInput/CustomInput';
 
 function App() {
   return (
     <div>
-      <CustomButton />
-      <CustomInput />
+      <HomePage />
     </div>
   );
 }
