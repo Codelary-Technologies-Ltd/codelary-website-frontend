@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../../assets/codelaryy.png';
+import Hamburger from '../Hamburger';
 import './NavBar.css'
 
 function NavBar() {
@@ -18,6 +19,9 @@ function NavBar() {
                 <li>Contact Us</li>
                 </ul> 
             </nav>
+        </div>
+        <div className='my-ham'>
+        <Hamburger/>
         </div>
         
         
