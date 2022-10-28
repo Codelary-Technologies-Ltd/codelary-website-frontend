@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
     margin: auto;
 }
 .nav-flex img{
@@ -28,4 +27,15 @@
 .second-nav ul :hover {
     color: #AB7E5F;
     cursor: pointer;
+}
+.my-ham {
+    display: none;
+}
+@media (max-width: 920px){
+ .second-nav{
+    display: none;
+ }
+ .my-ham{
+    display: block;
+ }
 }
