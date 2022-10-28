@@ -1,18 +1,13 @@
-.first-nav {
+.first-nav{
+    width: 90%;
     display: flex;
-    gap: 250px;
+    justify-content: space-between;
     align-items: center;
-    border-bottom: 1px solid gray;
-    margin: 5px auto;
-    padding-bottom: 13px;
+    
+    margin: auto;
 }
-.nav-flex {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-}
-.first-nav img{
-    border-radius: 50%;
+.nav-flex img{
+    background: transparent;
 }
 .spann {
     font-family: algerian;
@@ -23,6 +18,8 @@
 .second-nav ul{
     display: flex;
     gap: 50px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid #AB7E5F;
 }
 .second-nav li{
     font-weight: 600;
