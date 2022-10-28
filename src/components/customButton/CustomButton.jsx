@@ -1,9 +1,10 @@
 import React from 'react';
+import './CustomButton.css';
 
 function CustomButton({title, ...otherProps}) {
   return (
     <div>
-        <button {...otherProps} className=" bg-yellow-700 text-white p-3 w-50 ">{title}</button>
+        <button {...otherProps}>{title}</button>
     </div>
   )
 }
