@@ -5,11 +5,11 @@
 }
 body {
     color: white;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* .bg-image {
    width: 100vw;
-   height: 600px;
+   height: 50px;
    background: #283C61; 
    overflow: hidden;
 } */
@@ -17,24 +17,28 @@ body {
     object-fit: cover;
     opacity: 0.4;
 } */
-.bod{
-    margin: 0 auto;
+.bod1{
+    /* margin: 0 auto; */
     background-image: url(../../assets/image4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    width: 100%;
     min-height: 100vh;
     background-color: #283C61;
     background-blend-mode: multiply;
     position: relative;
     overflow: hidden;
     opacity: 0.9;
+
+}
+
+.bod{
+    margin: 0 auto;
     
 }
 .home-div{
     width: 75%;
-    margin: 8rem auto;
+    margin: 8rem auto 3rem;
 }
 .home-div h1{
     font-size: 40px;
@@ -52,9 +56,9 @@ body {
 .custom-data{
     display: flex;
     justify-content: center;
-    margin: 30px;
+    margin: 0;
     gap: 30px;
 }
 .custom-data :hover {
-    background-color: #283C61;
+    background-color: #AB7E5F;
 }

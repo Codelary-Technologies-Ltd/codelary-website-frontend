@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from '../../assets/codelary-logo.png';
+import logo from '../../assets/codelaryy.png';
 import './NavBar.css'
 
 function NavBar() {
@@ -7,7 +7,7 @@ function NavBar() {
     <div>
         <div className='first-nav'>
             <div className='nav-flex'>
-                <img src={logo} alt="codelary" width={70} height={70}/> <span className='spann'>CODELARY</span>
+                <img src={logo} alt="codelary" width={150} height={150}/>
             </div>            
             <nav className='second-nav'>
             <ul>
