@@ -12,7 +12,7 @@ function HomePage() {
     <div className='bod'>
       <NavBar />
       <div>
-        {/* <div>
+        {/* <div className='bg-image'>
             <img src={image4} alt="image4"/>
         </div> */}
         <div className='home-div'>
@@ -20,8 +20,8 @@ function HomePage() {
             <p>We take our time to design, build and develop scalable software applications for people all over the world to solve their problems</p>
         </div>
         <div className='custom-data'>
-        <CustomButton title = 'Free Consultation' style = {{width: '100%', margin: '3px 0 0'}} />
-        <CustomButton title = 'Learn More' style = {{width: '100%', margin: '3px 0 0'}} />
+        <CustomButton title = 'Free Consultation' style = {{margin: '3px 0 0'}} />
+        <CustomButton title = 'Learn More' style = {{margin: '3px 0 0'}} />
         </div>
       </div>
     </div>
