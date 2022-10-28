@@ -11,7 +11,7 @@ function Hamburger() {
                 <span className='ham-span'></span>
                 {/* <List size={50} /> */}
                 <ul className='hamburger'>
-                    <li>services</li>
+                    <li>Home</li>
                     <li>Services</li>
                     <li>Testimonials</li>
                     <li>Contact Us</li>
