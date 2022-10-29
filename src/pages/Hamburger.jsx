@@ -12,8 +12,9 @@ function Hamburger() {
                 {/* <List size={50} /> */}
                 <ul className='hamburger'>
                     <li>Home</li>
-                    <li>Services</li>
-                    <li>Testimonials</li>
+                    <li>About Us</li>
+                    <li>Our Services</li>
+                    <li>Our Team</li>
                     <li>Contact Us</li>
                 </ul>
         </div>
