@@ -10,13 +10,18 @@ function AboutPage() {
         </div>
         <div className="about-text">
             <h1>About Us</h1>
-            <h2>#1 Our Mission</h2>
+            <div className="about-heading">
+                <h2>#1 Our Mission</h2>
                 <p>Our mission is to deliver the best possible reliable and secured software solutions to help our clients improve their business efficiency.</p>
-            <h2>#2 Our Goals</h2>
+            </div>
+            <div className="about-heading">
+                <h2>#2 Our Goals</h2>
                 <p>Our main goal is to design, build and develop scalable software applications for organizations and businesses to thrive.</p>
-            <h2>#3 Why Us?</h2>
+            </div>
+            <div className="about-heading">
+                <h2>#3 Why Us?</h2>
                 <p>We have highly skilled software engineers who posses technical knowledge and experience in using latest software standards, tools, platforms, frameworks, packages, libraries and technologies that make up our team. We’re confident that we are the only tech company that can provide the best possible IT & software solutions to your business.</p>
-
+            </div>
 
         </div>
     </div>

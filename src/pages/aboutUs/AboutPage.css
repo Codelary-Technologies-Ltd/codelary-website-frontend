@@ -2,12 +2,16 @@
     color: #283C61;
     display: flex;
     width: 90%;
-    margin: 8rem auto;
+    margin: 5rem auto;
 }
 .about-image {
     width: 50%;
-    background-color:#AB7E5F;
-    padding-bottom: .5rem;
+    box-shadow: 8px 8px 0px 0px rgb(171, 126, 95);
+}
+.about-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .about-text {
     width: 50%;
@@ -28,4 +32,11 @@
     font-size: 14px;
     text-align: justify;
     font-weight: 600;
+
 }
+.about-heading {
+    margin-top: 2rem;
+}
+/* .about-heading {
+    margin-top: 2rem;
+} */
