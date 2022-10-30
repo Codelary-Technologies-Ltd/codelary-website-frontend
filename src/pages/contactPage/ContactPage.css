@@ -12,7 +12,7 @@
 }
 .smallContc{
     width: 90%;
-    margin: auto;
+    margin: 2rem auto;
     top: 0;
     display: flex;
     justify-content: space-between;
@@ -99,19 +99,21 @@
 .groupc2{
     display: flex;
     justify-content: space-between;
-    width: 40%;
-    margin: 3% 10%;
+    width: 80%;
     cursor: pointer;
 }
 .bluei:hover{
-    color: #1877F2;
-    transition: ease-in .5s;
-}
-.pinki:hover{
-    color: pink;
+    color: #AB7E5F;
     transition: ease-in .5s;
 }
 textarea {
     background-color: transparent;
     border: 1px solid white;
+}
+.follow-us {
+    margin: 5rem;
+    justify-content: right;
+}
+.follow-us span {
+    font-size: larger;
 }
