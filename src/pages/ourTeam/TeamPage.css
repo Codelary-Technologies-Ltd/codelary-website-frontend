@@ -1,12 +1,20 @@
-.abouthead h2 {
-    margin-top: 5rem;
+.abouthead h1 {
+    width: 12%;
+    margin: 3rem auto;
+    text-align: center;
+    font-size: xx-large;
+    border-bottom: 3px solid #AB7E5F;
+}
+.abouthead p {
+    text-align: center;
+    font-weight: 400;
+    width: 35%;
+    margin: auto;
 }
 
 .pics{
     width: 290px;
     height: 290px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
 }
 .aboutlistgenpics{
     display: flex;
@@ -16,24 +24,26 @@
     width: 98%;
 }
 .ab{
-    margin: auto;
+    margin: 5rem auto;
+    color: #283C61;
 }
 .cardpics{
-       margin: 5px;
-       margin-top: 20px;
-       margin-right: 10px;
-       background: linear-gradient(0.9turn,#f2174f, #cc1b4d, #bd1c4d, #97204a, #5c2648, #2e2b48, #202c46);
-       border-radius: 10px;
-       text-align: center;
-       color: white;
-       position: relative;
+    margin: 5px;
+    margin-top: 20px;
+    margin-right: 10px;
+    text-align: center;
+    color: #283C61;
+    font-size: large;
+    font-weight: bold;
+    border-bottom: 1px solid #283C61;
+    box-shadow: 8px 8px 0px 0px rgb(171, 126, 95);
+    position: relative;
 }
 .pix {
     position: absolute;
     bottom: 0;
-    /* left: 100%; */
     right: 0;
-    background-color: rgb(92, 38, 72, .8);
+    background-color: rgb(40, 60, 97, .9);
     overflow: hidden;
     width: 0;
     height:100%;
@@ -65,4 +75,10 @@
     color: white;
     font-size: small;
     font-weight: 600;
+}
+.team-socials {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    margin: 1.5rem;
 }

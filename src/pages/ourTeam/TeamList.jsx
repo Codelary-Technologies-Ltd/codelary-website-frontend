@@ -9,6 +9,7 @@ function TeamList({userss}) {
             key={userz.id.toString()}
             img={userz.img}
             github={userz.github_link}
+            linkd={userz.linkd_link}
             name={userz.name}
             about={userz.about}
             />
