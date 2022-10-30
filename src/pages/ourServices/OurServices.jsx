@@ -9,7 +9,7 @@ function OurServices() {
         <div className="service-contain">
             <div className="service-box">
                 <div className='service-logo'>
-                    <Globe size={32} color="#ab7e5f" weight="thin" />
+                    <Globe size={32} color="#ab7e5f" weight="bold" />
                 </div>
                 <div className='service-text'>
                     <h2>Web Design and Development</h2>
@@ -18,7 +18,7 @@ function OurServices() {
             </div>
             <div className="service-box">
                 <div className='service-logo'>
-                    <DeviceMobile size={32} color="#ab7e5f" weight="thin" />
+                    <DeviceMobile size={32} color="#ab7e5f" weight="bold" />
                 </div>
                 <div className='service-text'>
                     <h2>Mobile Development</h2>
@@ -27,7 +27,7 @@ function OurServices() {
             </div>
             <div className="service-box">
                 <div className='service-logo'>
-                    <Laptop size={32} color="#ab7e5f" weight="thin" />
+                    <Laptop size={32} color="#ab7e5f" weight="bold" />
                 </div>
                 <div className='service-text'>
                     <h2>Web Maintenance</h2>

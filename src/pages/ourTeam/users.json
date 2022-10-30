@@ -1,0 +1,30 @@
+[
+   {
+     "id": 1,
+     "name": "Momoh Abdulrasheed",
+     "github_link": "https://github.com/momohrasheed06",
+     "img":"Pictures/1.jpg",
+     "about": "CEO/Software Developer"
+    },
+    {
+     "id": 2,
+     "name": "Abdulwasiu Saliman",
+     "github_link": "https://github.com/Oladimeji-Dev",
+     "img":"Pictures/2.jpg",
+     "about": "Project Manager/Software Engineer"
+    },
+    {
+      "id": 3,
+      "name": " Ajibade Hamidat Abisola",
+      "github_link": "https://github.com/Hameedarh",
+      "img":"Pictures/3.jpg",
+      "about": "Program Coordinator/Software Developer"
+    },
+    {
+        "id": 4,
+        "name": "Alexander Gabrielle Khoinom",
+        "github_link": "https://github.com/Gabbie99",
+        "img":"Pictures/4.jpg",
+        "about": "Product Designer/Software Developer"
+    }
+]
