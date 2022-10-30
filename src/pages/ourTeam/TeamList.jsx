@@ -10,6 +10,7 @@ function TeamList({userss}) {
             img={userz.img}
             github={userz.github_link}
             linkd={userz.linkd_link}
+            twitter={userz.twitter_link}
             name={userz.name}
             about={userz.about}
             />

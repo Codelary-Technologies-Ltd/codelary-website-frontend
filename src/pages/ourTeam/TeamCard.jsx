@@ -2,8 +2,9 @@ import React from 'react';
 import './TeamPage.css';
 import gitlogo from '../../assets/gith.png';
 import linkdlogo from '../../assets/linkd.png';
+import twitterlogo from '../../assets/twitter.png';
 
-function TeamCard({img, github, linkd, name, about}) {
+function TeamCard({img, github, linkd, twitter, name, about}) {
   return (
     <div>
         <div className='cardpics'>
@@ -16,6 +17,7 @@ function TeamCard({img, github, linkd, name, about}) {
                 <div className='team-socials'>
                     <a href={github}><img src={gitlogo} alt="" style={{width:"25px", backgroundColor:"white"}}/></a> 
                     <a href={linkd}><img src={linkdlogo} alt="" style={{width:"25px", backgroundColor:"white", padding:"2px"}}/></a> 
+                    <a href={twitter}><img src={twitterlogo} alt="" style={{width:"25px", backgroundColor:"white", padding:"2px"}}/></a>
                 </div>
               </div>
             </div>
