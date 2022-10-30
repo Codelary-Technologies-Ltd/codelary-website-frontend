@@ -13,7 +13,7 @@ function OurServices() {
                 </div>
                 <div className='service-text'>
                     <h2>Web Design and Development</h2>
-                    <p>We design and develop websites that are secure, scalable, and responsive which can fit in any small or large screen display, whether PC, tablet or mobile phone.</p>
+                    <p>We design and develop websites that are secure, scalable, and responsive which can fit in any screen display, whether PC, tablet or mobile phone.</p>
                 </div>
             </div>
             <div className="service-box">

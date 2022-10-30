@@ -26,10 +26,13 @@ function ContactPage(){
                             <span>E-mail Address</span>
                         </div>
                         <span className="movec">codelarytechnologiesltd@gmail.com</span>
-                        <div className="groupc2">
-                        <a href="www.facebook.com"><p><FacebookLogo size={37} className = 'bluei' /></p></a>
-                        <a href="www.linkedin.com"><p><LinkedinLogo size={37} className = 'bluei' /></p></a>
-                        <a href="www.instagram.com"><p><InstagramLogo size={37} className = 'pinki'  /></p></a>
+                        <div className="follow-us">
+                            <span>Follow Us</span>
+                            <div className="groupc2">
+                                <a href="www.facebook.com"><p><FacebookLogo size={37} className = 'bluei' /></p></a>
+                                <a href="www.linkedin.com"><p><LinkedinLogo size={37} className = 'bluei' /></p></a>
+                                <a href="www.instagram.com"><p><InstagramLogo size={37} className = 'bluei'  /></p></a>
+                            </div>
                         </div>
                     </div>
                 </div>
