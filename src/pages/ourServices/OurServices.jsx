@@ -13,7 +13,7 @@ function OurServices() {
                 </div>
                 <div className='service-text'>
                     <h2>Web Design and Development</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut totam autem repudiandae, repellat neque molestiae.</p>
+                    <p>We design and develop websites that are secure, scalable, and responsive which can fit in any small or large screen display, whether PC, tablet or mobile phone.</p>
                 </div>
             </div>
             <div className="service-box">
@@ -22,7 +22,7 @@ function OurServices() {
                 </div>
                 <div className='service-text'>
                     <h2>Mobile Development</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut totam autem repudiandae, repellat neque molestiae.</p>
+                    <p>We also design and build mobile applications that is futuristic and has the potential to grow your business.</p>
                 </div>
             </div>
             <div className="service-box">
@@ -31,7 +31,7 @@ function OurServices() {
                 </div>
                 <div className='service-text'>
                     <h2>Web Maintenance</h2>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut totam autem repudiandae, repellat neque molestiae.</p>
+                    <p>We offer top-notch web maintenance services for businesses to ensure their websites remain up-to-date, secure, and healthy.</p>
                 </div>
             </div>
         </div>
