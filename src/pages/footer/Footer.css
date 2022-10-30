@@ -1,0 +1,17 @@
+.footer {
+    width: 90%;
+    margin: 1rem auto;
+}
+.lastpage {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer span {
+    font-size: smaller;
+    color: #283C61;
+    font-weight: bold;
+}
+.lastpage1 img {
+    border-radius: 30%;
+}

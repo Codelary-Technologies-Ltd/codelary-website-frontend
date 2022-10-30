@@ -4,6 +4,7 @@ import AboutPage from './pages/aboutUs/AboutPage';
 import OurServices from './pages/ourServices/OurServices';
 import TeamPage from './pages/ourTeam/TeamPage';
 import ContactPage from './pages/contactPage/ContactPage';
+import Footer from './pages/footer/Footer';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <OurServices />
       <TeamPage />
       <ContactPage />
+      <Footer />
     </div>
   );
 }
