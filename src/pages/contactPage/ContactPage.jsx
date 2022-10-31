@@ -42,13 +42,15 @@ function ContactPage(){
                     <CustomInput placeholder='Email*' name="email" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
                     <CustomInput placeholder='Phone number*' name="phone" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
                     <textarea placeholder="Write us a message" cols="20" rows="4" id="textc" name="message"></textarea>
-                    <CustomButton title = 'SUBMIT' style = {{width: '100%', margin: '8px 0% 0', padding: '.8rem', backgroundColor: '#AB7E5F'}} />
+                        <CustomButton title = 'SUBMIT' style = {{width: '100%', margin: '8px 0% 0', padding: '.8rem', backgroundColor: '#AB7E5F'}} />
                     </div>
                 </form>
             </div>  
                 <div className="lastpage">
                     <div className="lastpage1">
-                    <span>Privacy Policy | Terms And Conditions</span>
+                    <span>Privacy Policy </span> 
+                    <p>|</p>
+                    <span>Terms And Conditions</span>
                     </div>
                     <div className="lastpage2">
                             <div className="groupc2">

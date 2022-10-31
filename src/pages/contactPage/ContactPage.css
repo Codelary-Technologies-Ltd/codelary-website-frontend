@@ -98,9 +98,8 @@
 }
 .groupc2{
     display: flex;
-    justify-content: space-between;
-    width: 80%;
     cursor: pointer;
+    color: white;
 }
 .bluei:hover{
     color: #3b5998;
@@ -117,6 +116,9 @@
 .twit:hover{
     color: #1DA1F2;
     transition: ease-in .5s;
+}
+.bluei, .linkd, .insta, .twit {
+    color: white;
 }
 textarea {
     background-color: transparent;
@@ -136,6 +138,19 @@ textarea {
     color: #AB7E5F;
     font-weight: bolder;
 }
-.lastpage2 a{
-    margin: .5rem;
+.lastpage1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
 }
+.lastpage1 span:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.lastpage p {
+    margin: 0 1rem;
+    color: #AB7E5F;
+}
+
+
