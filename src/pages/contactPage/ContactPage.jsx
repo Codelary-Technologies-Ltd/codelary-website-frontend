@@ -1,8 +1,10 @@
 import React from "react";
 import CustomInput from '../../components/customInput/CustomInput';
 import CustomButton from '../../components/customButton/CustomButton';
-import { MapPin, Phone, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo } from 'phosphor-react';
+import { MapPin, Phone, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo, WhatsappLogo } from 'phosphor-react';
 import './ContactPage.css';
+import codelarylogo from '../../assets/codelaryy.png';
+
 
 function ContactPage(){
     return(
@@ -20,20 +22,17 @@ function ContactPage(){
                             <Phone size={32} /> 
                             <span> Let's Talk</span>
                         </div>
+                        <span className="movec">+234-70-31839826</span><br /><br />
+                        <div className="groupc">
+                            <WhatsappLogo size={32} /> 
+                            <span> Let's Chat</span>
+                        </div>
                         <span className="movec">+234-80-85702341</span><br /><br />
                         <div className="groupc">
                             <EnvelopeSimple size={32} />
                             <span>E-mail Address</span>
                         </div>
                         <span className="movec">codelarytechnologiesltd@gmail.com</span>
-                        <div className="follow-us">
-                            <span>Follow Us</span>
-                            <div className="groupc2">
-                                <a href="www.facebook.com"><p><FacebookLogo size={37} className = 'bluei' /></p></a>
-                                <a href="www.linkedin.com"><p><LinkedinLogo size={37} className = 'bluei' /></p></a>
-                                <a href="www.instagram.com"><p><InstagramLogo size={37} className = 'bluei'  /></p></a>
-                            </div>
-                        </div>
                     </div>
                 </div>
                 <form className='formc'>
@@ -47,6 +46,22 @@ function ContactPage(){
                     </div>
                 </form>
             </div>  
+                <div className="lastpage">
+                    <div className="lastpage1">
+                        <img src={codelarylogo} alt="logo" width={150} height={150} />
+                    </div>
+                    <div className="lastpage2">
+                            <div className="groupc2">
+                                <a href="www.facebook.com"><p><FacebookLogo size={37} className = 'bluei' /></p></a>
+                                <a href="www.linkedin.com"><p><LinkedinLogo size={37} className = 'linkd' /></p></a>
+                                <a href="www.instagram.com"><p><InstagramLogo size={37} className = 'insta'  /></p></a>
+                                <a href="www.twitter.com"><p><TwitterLogo size={37} className = 'twit' /></p></a>
+                            </div>
+                    </div>
+                    <div className="lastpage3">
+                        <span>&copy; Codelary Technologies Ltd. All Rights Reserved</span>
+                    </div>
+        </div>
         </div>
     )
 }

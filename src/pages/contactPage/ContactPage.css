@@ -103,7 +103,19 @@
     cursor: pointer;
 }
 .bluei:hover{
-    color: #AB7E5F;
+    color: #3b5998;
+    transition: ease-in .5s;
+}
+.linkd:hover{
+    color: #0e76a8;
+    transition: ease-in .5s;
+}
+.insta:hover{
+    color: #cd486b;
+    transition: ease-in .5s;
+}
+.twit:hover{
+    color: #1DA1F2;
     transition: ease-in .5s;
 }
 textarea {
@@ -116,4 +128,20 @@ textarea {
 }
 .follow-us span {
     font-size: larger;
+}
+.lastpage {
+    width: 90%;
+    margin: auto;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer span {
+    font-size: smaller;
+    color: #283C61;
+    font-weight: bold;
+}
+.lastpage2 a{
+    margin: .5rem;
 }
