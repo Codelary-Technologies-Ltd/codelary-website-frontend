@@ -195,3 +195,43 @@ textarea {
         font-size: 12.5px;
     }
 }
+@media (max-width:922px) {
+    .col-2c .absc h1{
+        width: 45%;
+        font-size: 1.3rem;
+        text-align: center;
+        border-bottom: 3px solid #AB7E5F;
+        margin-top: 5rem;
+    }
+    .movec {
+        margin-left: 12%;
+        font-size: 12.5px;
+    }
+    .colc h2{
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 2.5rem;
+    }
+    .groupc span{
+        font-size: 1rem;
+        margin-left: 20px;
+    } 
+    .smallContc{
+        width: 100%;
+        margin: 2rem auto;
+        top: 0;
+        display: flex;
+        justify-content: space-between;
+        min-height: 100vh;
+        overflow: hidden;
+    }
+}
+@media (max-width:764px) {
+    .col-2c .absc h1{
+        width: 45%;
+        font-size: 1.2rem;
+        text-align: center;
+        border-bottom: 3px solid #AB7E5F;
+        margin-top: 5rem;
+    }
+}
