@@ -152,5 +152,46 @@ textarea {
     margin: 0 1rem;
     color: #AB7E5F;
 }
-
-
+@media (max-width:1297px) {
+    .col-2c .absc h1{
+        width: 50%;
+        font-size: 1.5rem;
+        text-align: center;
+        border-bottom: 3px solid #AB7E5F;
+        margin-top: 5rem;
+    }
+    .movec {
+        margin-left: 12%;
+        font-size: 15px;
+    }
+    .groupc span{
+        font-size: 1.1rem;
+        margin-left: 20px;
+    }
+}
+@media (max-width:1297px) {
+    .col-2c .absc h1{
+        width: 50%;
+        font-size: 1.6rem;
+        text-align: center;
+        border-bottom: 3px solid #AB7E5F;
+        margin-top: 5rem;
+    }
+    .movec {
+        margin-left: 12%;
+        font-size: 14px;
+    }
+}
+@media (max-width:1137px) {
+    .col-2c .absc h1{
+        width: 48%;
+        font-size: 1.5rem;
+        text-align: center;
+        border-bottom: 3px solid #AB7E5F;
+        margin-top: 5rem;
+    }
+    .movec {
+        margin-left: 12%;
+        font-size: 12.5px;
+    }
+}

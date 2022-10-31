@@ -3,8 +3,6 @@ import CustomInput from '../../components/customInput/CustomInput';
 import CustomButton from '../../components/customButton/CustomButton';
 import { MapPin, Phone, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo, WhatsappLogo } from 'phosphor-react';
 import './ContactPage.css';
-import codelarylogo from '../../assets/codelaryy.png';
-
 
 function ContactPage(){
     return(
