@@ -6,6 +6,7 @@ function AboutPage() {
   return (
     <div className='about-container'>
         <div className="about-image">
+            <h1 className='image-h1'>About Us</h1>
             <img src={image1} alt="image1" width={600} height={600} />
         </div>
         <div className="about-text">
