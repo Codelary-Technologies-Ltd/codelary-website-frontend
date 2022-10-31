@@ -82,3 +82,78 @@
     justify-content: center;
     margin: 1.5rem;
 }
+@media (max-width:1329px) {
+    .abouthead p {
+        text-align: center;
+        font-weight: 400;
+        width: 45%;
+        margin: auto;
+    }
+}
+@media (max-width:1149px) {
+    .abouthead h1 {
+        width: 15%;
+        margin: 3rem auto;
+        text-align: center;
+        font-size: xx-large;
+        border-bottom: 3px solid #AB7E5F;
+    }
+}
+@media (max-width:1036px) {
+    .abouthead p {
+        text-align: center;
+        font-weight: 400;
+        width: 55%;
+        margin: auto;
+    }
+}
+@media (max-width:923px) {
+    .abouthead h1 {
+        width: 15%;
+        margin: 3rem auto;
+        text-align: center;
+        font-size: x-large;
+        border-bottom: 3px solid #AB7E5F;
+    }    
+}
+@media (max-width:850px) {
+    .abouthead p {
+        text-align: center;
+        font-weight: 400;
+        width: 65%;
+        margin: auto;
+    }
+}
+
+@media (max-width:696px) {
+    .abouthead h1 {
+        width: 15%;
+        margin: 2rem auto;
+        text-align: center;
+        font-size: large;
+        border-bottom: 3px solid #AB7E5F;
+    }
+    .abouthead p {
+        text-align: center;
+        font-weight: 400;
+        width: 75%;
+        margin: auto;
+        font-size: small;
+    }
+}
+@media (max-width:500px) {
+    .abouthead h1 {
+        width: 20%;
+        margin: 2rem auto;
+        text-align: center;
+        font-size: large;
+        border-bottom: 3px solid #AB7E5F;
+    }
+    .abouthead p {
+        text-align: center;
+        font-weight: 500;
+        width: 79%;
+        margin: auto;
+        font-size: small;
+    }
+}
