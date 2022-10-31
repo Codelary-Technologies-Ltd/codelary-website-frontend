@@ -122,25 +122,19 @@ textarea {
     background-color: transparent;
     border: 1px solid white;
 }
-.follow-us {
-    margin: 5rem;
-    justify-content: right;
-}
-.follow-us span {
-    font-size: larger;
-}
 .lastpage {
     width: 90%;
     margin: auto;
+    padding: 2rem;
     border-top: 1px solid white;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
-.footer span {
-    font-size: smaller;
-    color: #283C61;
-    font-weight: bold;
+.lastpage span {
+    font-size: small;
+    color: #AB7E5F;
+    font-weight: bolder;
 }
 .lastpage2 a{
     margin: .5rem;
