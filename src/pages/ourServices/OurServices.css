@@ -12,7 +12,7 @@
     padding: 5rem;
 }
 .service-box {
-    max-width: 30%;
+    /* max-width: 30%; */
     display: flex;
     align-items: center;
     gap: 20px;
@@ -38,4 +38,177 @@
 }
 .service-text p {
     width: 100%;
+}
+
+@media (max-width:1923px) {
+    .service-container {
+        background-color: #283C61;
+        color: white;
+        padding: 5rem 5rem 15rem 5rem;
+    }
+    .service-contain {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 40px;
+        width: 100%;
+        margin: auto;
+        padding: 5rem;
+    }
+    .service-box {
+        max-width: 25%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #304771;
+        color: white;
+        border-bottom: 3px solid #ab7e5f;
+        padding: 1.5rem;
+    }
+    .service-text h2{
+        justify-items: center;
+        font-size: large;
+        font-weight: 600;
+        color: #ab7e5f;
+        margin-bottom: .5rem;
+    }
+    .service-container h1 {
+        width: 15%;
+        margin: auto;
+        text-align: center;
+        font-size: xx-large;
+        font-weight: 500;
+        border-bottom: 3px solid #ab7e5f;
+    }
+    .service-text p {
+        width: 100%;
+    }
+}
+@media (max-width:1680px) {
+    .service-box {
+        max-width: 30%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #304771;
+        color: white;
+        border-bottom: 3px solid #ab7e5f;
+        padding: 1.5rem;
+    }
+}
+@media (max-width:1440px) {
+    .service-box {
+        max-width: 33%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #304771;
+        color: white;
+        border-bottom: 3px solid #ab7e5f;
+        padding: 1.5rem;
+    }
+}
+@media (max-width:1330px) {
+    .service-text p {
+        width: 100%;
+        font-size: small;
+    }
+    .service-box {
+        max-width: 30%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #304771;
+        color: white;
+        border-bottom: 3px solid #ab7e5f;
+        padding: 1.5rem;
+    }
+}
+@media (max-width:1290px) {
+    .service-box {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #304771;
+        color: white;
+        border-bottom: 3px solid #ab7e5f;
+        padding: 1.5rem;
+    }
+    .service-text h2{
+        justify-items: center;
+        font-size: large;
+        font-weight: 600;
+        color: #ab7e5f;
+        margin-bottom: .5rem;
+    }
+}
+@media (max-width:1160px) {
+    .service-box {
+        max-width: 100%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #304771;
+        color: white;
+        border-bottom: 3px solid #ab7e5f;
+        padding: .5rem;
+    }
+    .service-container h1 {
+        width: 18%;
+        margin: auto;
+        text-align: center;
+        font-size: x-large;
+        font-weight: 500;
+        border-bottom: 3px solid #ab7e5f;
+    }
+}
+@media (max-width:1024px) {
+    .service-box {
+        max-width: 30%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #304771;
+        color: white;
+        border-bottom: 3px solid #ab7e5f;
+        padding: 1rem;
+    }
+    .service-container h1 {
+        width: 15%;
+        margin: auto;
+        text-align: center;
+        font-size: large;
+        font-weight: 500;
+        border-bottom: 3px solid #ab7e5f;
+    }
+    .service-text h2{
+        justify-items: center;
+        font-size: 12px;
+        font-weight: 600;
+        color: #ab7e5f;
+        margin-bottom: .5rem;
+    }
+    .service-text p {
+        width: 100%;
+        font-size: x-small;
+    }
+}
+@media (max-width:980px) {
+    .service-box {
+        max-width: 30%;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #304771;
+        color: white;
+        border-bottom: 3px solid #ab7e5f;
+        padding: 1rem;
+    }
+    .service-text p {
+        width: 100%;
+        font-size: x-small;
+    }
+}
+@media (max-width:600px) {
+    
 }
