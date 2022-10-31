@@ -39,3 +39,39 @@
 .service-text p {
     width: 100%;
 }
+
+@media (max-width:1923px) {
+    .service-contain {
+        display: flex;
+        justify-content: space-evenly;
+        gap: 35px;
+        width: 90%;
+        margin: auto;
+        padding: 5rem;
+    }
+    .service-box {
+        max-width: 25%;
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        gap: 20px;
+        background-color: #304771;
+        color: white;
+        border-bottom: 3px solid #ab7e5f;
+        padding: 1.5rem;
+    }
+    .service-container {
+        background-color: #283C61;
+        color: white;
+        padding: 0 0 13rem 13rem;
+        margin: auto;
+    }
+    .service-container h1 {
+        width: 15%;
+        padding: 4rem 0 0 0;
+        text-align: center;
+        font-size: xx-large;
+        font-weight: 500;
+        border-bottom: 3px solid #ab7e5f;
+    }
+}
