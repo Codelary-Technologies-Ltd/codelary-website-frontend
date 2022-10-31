@@ -42,24 +42,26 @@ function ContactPage(){
                     <CustomInput placeholder='Email*' name="email" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
                     <CustomInput placeholder='Phone number*' name="phone" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
                     <textarea placeholder="Write us a message" cols="20" rows="4" id="textc" name="message"></textarea>
-                    <CustomButton title = 'SUBMIT' style = {{width: '100%', margin: '8px 0% 0', padding: '.8rem', backgroundColor: '#AB7E5F'}} />
+                        <CustomButton title = 'SUBMIT' style = {{width: '100%', margin: '8px 0% 0', padding: '.8rem', backgroundColor: '#AB7E5F'}} />
                     </div>
                 </form>
             </div>  
                 <div className="lastpage">
                     <div className="lastpage1">
-                        <img src={codelarylogo} alt="logo" width={150} height={150} />
+                    <span>Privacy Policy </span> 
+                    <p>|</p>
+                    <span>Terms And Conditions</span>
                     </div>
                     <div className="lastpage2">
                             <div className="groupc2">
-                                <a href="www.facebook.com"><p><FacebookLogo size={37} className = 'bluei' /></p></a>
-                                <a href="www.linkedin.com"><p><LinkedinLogo size={37} className = 'linkd' /></p></a>
-                                <a href="www.instagram.com"><p><InstagramLogo size={37} className = 'insta'  /></p></a>
-                                <a href="www.twitter.com"><p><TwitterLogo size={37} className = 'twit' /></p></a>
+                                <a href="www.facebook.com"><p><FacebookLogo size={30} className = 'bluei' /></p></a>
+                                <a href="www.linkedin.com"><p><LinkedinLogo size={30} className = 'linkd' /></p></a>
+                                <a href="www.instagram.com"><p><InstagramLogo size={30} className = 'insta'  /></p></a>
+                                <a href="www.twitter.com"><p><TwitterLogo size={30} className = 'twit' /></p></a>
                             </div>
                     </div>
                     <div className="lastpage3">
-                        <span>&copy; Codelary Technologies Ltd. All Rights Reserved</span>
+                        <span>&copy; 2022 Codelary Technologies Ltd. All Rights Reserved</span>
                     </div>
         </div>
         </div>
