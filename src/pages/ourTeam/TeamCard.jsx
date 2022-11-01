@@ -4,11 +4,11 @@ import gitlogo from '../../assets/gith.png';
 import linkdlogo from '../../assets/linkd.png';
 import twitterlogo from '../../assets/twitter.png';
 
-function TeamCard({img, github, linkd, twitter, name, about, portfolio, profile}) {
+function TeamCard({pic, github, linkd, twitter, name, about, portfolio, profile}) {
   return (
     <div>
         <div className='cardpics'>
-            <img className='pics' src={img} alt="image" />
+            <img className='pics' src={pic} alt="image" />
             <div className="pix">
               <div className='text'>
                 <h3>{name}</h3>

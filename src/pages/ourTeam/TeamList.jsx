@@ -7,7 +7,7 @@ function TeamList({userss}) {
         {userss.map((userz) =>(
             <TeamCard
             key={userz.id.toString()}
-            img={userz.img}
+            pic={userz.pic}
             github={userz.github_link}
             linkd={userz.linkd_link}
             twitter={userz.twitter_link}
