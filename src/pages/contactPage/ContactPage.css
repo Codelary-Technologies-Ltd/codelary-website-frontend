@@ -213,7 +213,7 @@ textarea {
         margin: 2.5rem;
     }
     .groupc span{
-        font-size: 1rem;
+        font-size: 1.1rem;
         margin-left: 20px;
     } 
     .smallContc{
@@ -224,6 +224,13 @@ textarea {
         justify-content: space-between;
         min-height: 100vh;
         overflow: hidden;
+    }
+}
+@media (max-width:800px) {
+    .colc h2{
+        text-align: center;
+        font-size: 1.3rem;
+        margin: 4rem 1rem 1rem 1rem;
     }
 }
 @media (max-width:764px) {
@@ -247,7 +254,7 @@ textarea {
         overflow: hidden;
     }
     .groupc span{
-        font-size: 1.2rem;
+        font-size: 1.1rem;
         margin-left: 20px;
     } 
     .movec {
@@ -287,6 +294,13 @@ textarea {
         margin: 4rem 1rem 1rem 1rem;
     }
 }
+@media (max-width:616px) {
+    .colc h2{
+        text-align: center;
+        font-size: 1.1rem;
+        margin: 4rem 1rem 1rem 1rem;
+    }
+}
 @media (max-width:528px) {
     .col-2c .absc h1{
         width: 70%;
@@ -297,7 +311,11 @@ textarea {
     } 
     .colc h2{
         text-align: center;
-        font-size: 1.1rem;
+        font-size: 1rem;
         margin: 4rem 1rem 1rem 1rem;
     }
+    .groupc span{
+        font-size: 1.1rem;
+        margin-left: 20px;
+    } 
 }
