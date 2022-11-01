@@ -9,8 +9,8 @@ function ContactPage(){
         <div className="contact-container">
             <div className="smallContc">
                 <div className="col-2c">
-                    <div className="absc">
-                        <h1>Contact Us</h1>
+                    <div className="absc"id="contact-us">
+                        <h1 >Contact Us</h1>
                         <div className="groupc" style={{margin: '80px 0 0'}}>
                             <MapPin size={32} />  
                             <span> Physical Address</span>

@@ -1,12 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 import logo from '../../assets/codelaryy.png';
-import AboutPage from '../aboutUs/AboutPage';
-import ContactPage from '../contactPage/ContactPage';
 import Hamburger from '../Hamburger';
-import OurServices from '../ourServices/OurServices';
-import TeamPage from '../ourTeam/TeamPage';
-import HomePage from './HomePage';
 import './NavBar.css'
 
 function NavBar() {
@@ -18,11 +12,11 @@ function NavBar() {
           </div>            
           <nav className='second-nav'>
           <ul>
-              <a href='/'><li>Home</li></a>
-              <a href='/about-us'><li>About Us</li></a>
-              <a href='/services'><li>Our Services</li></a>
-              <a href='/team'><li>Our Team</li></a>
-              <a href='/contact'><li>Contact Us</li></a>
+              <li> <a href="#homepage-us"> Home</a></li>
+              <li><a href="#about-us"> About Us</a></li>
+              <li><a href="#our-services-us"> Our Services</a></li>
+              <li><a href="#our-team-us"> Our Team</a></li>
+              <li><a href="#contact-us"> Contact Us</a></li>
               </ul> 
           </nav>
           <div className='my-ham'>

@@ -2,15 +2,16 @@ import React from 'react';
 import NavBar from './NavBar';
 import './HomePage.css';
 import CustomButton from '../../components/customButton/CustomButton';
+// import { Link } from 'react-router-dom';
 
 function HomePage() {
   return (
-    <div className='bod1'>
+    <div className='bod1' id='homepage-us'>
         <NavBar />
         <div className='bod'>
-        <div>
+        <div >
             <div className='home-div'>
-                <h1>Reliable, Secured and Customer Satisfaction for Every Client</h1>
+                <h1 >Reliable, Secured and Customer Satisfaction for Every Client</h1>
                 <p>We take our time to design, build and develop scalable software applications for people all over the world to solve their problems</p>
             </div>
             <div className='custom-data'>
