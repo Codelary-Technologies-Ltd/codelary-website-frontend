@@ -107,6 +107,17 @@
         padding: 1.5rem;
     }
 }
+@media (max-width:1359px) {
+    .service-container h1 {
+        width: 15%;
+        margin: auto;
+        text-align: center;
+        font-size: x-large;
+        font-weight: 500;
+        border-bottom: 3px solid #ab7e5f;
+    }
+}
+
 @media (max-width:1330px) {
     .service-text p {
         width: 100%;
@@ -265,6 +276,26 @@
         padding: 1rem;
     }
 }
+@media (max-width:730px) {
+    .service-container h1 {
+        width: 20%;
+        margin: auto;
+        text-align: center;
+        font-size: large;
+        font-weight: 500;
+        border-bottom: 3px solid #ab7e5f;
+    }
+}
+@media (max-width:676px) {
+    .service-container h1 {
+        width: 25%;
+        margin: auto;
+        text-align: center;
+        font-size: large;
+        font-weight: 500;
+        border-bottom: 3px solid #ab7e5f;
+    }
+}
 @media (max-width:670px) {
     .service-contain {
         display: grid;
@@ -275,7 +306,7 @@
         padding: 5rem;
     }
     .service-container h1 {
-        width: 15%;
+        width: 25%;
         margin: auto;
         text-align: center;
         font-size: 15px;
@@ -284,17 +315,17 @@
     }
     .service-text h2{
         justify-items: center;
-        font-size: 8px;
+        font-size: 13px;
         font-weight: 600;
         color: #ab7e5f;
         margin-bottom: .5rem;
     }
     .service-text p {
         width: 100%;
-        font-size: 7px;
+        font-size: 11px;
     }
 }
-@media (max-width:500px) {
+@media (max-width:509px) {
     .service-container h1 {
         width: 30%;
         margin: auto;
@@ -305,13 +336,13 @@
     }
     .service-text h2{
         justify-items: center;
-        font-size: small;
+        font-size: 11px;
         font-weight: 600;
         color: #ab7e5f;
         margin-bottom: .5rem;
     }
     .service-text p {
         width: 100%;
-        font-size: 11px;
+        font-size: 9px;
     }
 }
