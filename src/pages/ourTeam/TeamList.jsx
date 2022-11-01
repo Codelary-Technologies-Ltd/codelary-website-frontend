@@ -13,6 +13,8 @@ function TeamList({userss}) {
             twitter={userz.twitter_link}
             name={userz.name}
             about={userz.about}
+            profile={userz.profile}
+            portfolio={userz.portfolio_link}
             />
         ))}
     </div>
