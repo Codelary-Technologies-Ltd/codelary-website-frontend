@@ -9,6 +9,9 @@
     height: 150px;
     z-index: 1;
 }
+.first-nav-bg {
+    background-color: black;
+}
 .nav-flex img{
     background: transparent;
 }

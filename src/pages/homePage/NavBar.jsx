@@ -2,11 +2,23 @@ import React from 'react';
 import logo from '../../assets/codelaryy.png';
 import Hamburger from '../Hamburger';
 import './NavBar.css'
-
+import React, { useState } from 'react'
 function NavBar() {
+
+  const [color, setColor] = useState(false)
+  const colorChange = ()=>{
+    if(window.scrollY > 1920){
+      setColor(true)
+    }
+    else{
+      setColor(false)
+    }
+  }
+
+  window.addEventListener('scroll', colorChange)
   return (
     <div>
-      <div className='first-nav'>
+      <div className={color ? 'first-nav first-nav-bg ': 'first-nav'}>
           <div className='nav-flex'>
               <a href="#homepage-us"><img src={logo} alt="codelary" width={150} height={150}/></a>
           </div>            
