@@ -21,16 +21,16 @@
     margin: 8rem auto 3rem;
 }
 .home-div h1{
-    font-size: 40px;
+    font-size: 50px;
     font-weight: 400;
     text-align: center;
     margin:30px auto;
     width: 80%;
 }
 .home-div p{
-    font-size: large;
+    font-size: larger;
     text-align: center;
-    width: 70%;
+    width: 55%;
     margin: auto;
     color: whitesmoke;
 }
@@ -46,7 +46,7 @@
 
 @media (max-width: 1908px) {
     .home-div h1{
-        font-size: 70px;
+        font-size: 50px;
         font-weight: 500;
         text-align: center;
         margin:30px auto;
@@ -60,6 +60,63 @@
     }
 }
 
+@media (max-width: 1906px){
+    .home-div h1{
+        font-size: 47px;
+        font-weight: 500;
+        text-align: center;
+        margin:30px auto;
+        width: 70%;
+    }
+}
+@media (max-width: 1793px){
+    .home-div h1{
+        font-size: 44px;
+        font-weight: 500;
+        text-align: center;
+        margin:30px auto;
+        width: 70%;
+    }
+}
+@media (max-width: 1680px){
+    .home-div h1{
+        font-size: 41px;
+        font-weight: 500;
+        text-align: center;
+        margin:30px auto;
+        width: 70%;
+    }
+    .home-div p{
+        font-size: large;
+        text-align: center;
+        width: 58%;
+        margin: auto;
+    }
+}
+@media (max-width: 1566px){
+    .home-div h1{
+        font-size: 38px;
+        font-weight: 500;
+        text-align: center;
+        margin:30px auto;
+        width: 70%;
+    }
+    .home-div p{
+        font-size: large;
+        text-align: center;
+        width: 58%;
+        margin: auto;
+    }
+}
+@media (max-width: 1453px){
+    .home-div h1{
+        font-size: 36px;
+        font-weight: 500;
+        text-align: center;
+        margin:30px auto;
+        width: 70%;
+    }
+}
 @media (max-width: 1490px){
     .home-div p{
         font-size: large;
@@ -69,6 +126,81 @@
     }
 }
 
+@media (max-width: 1377px){
+    .home-div h1{
+        font-size: 34px;
+        font-weight: 500;
+        text-align: center;
+        margin:30px auto;
+        width: 70%;
+    }
+    .home-div p{
+        font-size: large;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+}
+@media (max-width: 1302px){
+    .home-div h1{
+        font-size: 30px;
+        font-weight: 500;
+        text-align: center;
+        margin:30px auto;
+        width: 70%;
+    }
+    .home-div p{
+        font-size: 15px;
+        text-align: center;
+        width: 58%;
+        margin: auto;
+    }
+}
+@media (max-width: 1150px){
+    .home-div h1{
+        font-size: 28px;
+        font-weight: 500;
+        text-align: center;
+        margin:30px auto;
+        width: 70%;
+    }
+    .home-div p{
+        font-size: 15px;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+}
+@media (max-width: 1075px){
+    .home-div h1{
+        font-size: 26px;
+        font-weight: 500;
+        text-align: center;
+        margin:30px auto;
+        width: 70%;
+    }
+    .home-div p{
+        font-size: 15px;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+}
+@media (max-width: 999px){
+    .home-div h1{
+        font-size: 24px;
+        font-weight: 500;
+        text-align: center;
+        margin:30px auto;
+        width: 70%;
+    }
+    .home-div p{
+        font-size: smaller;
+        text-align: center;
+        width: 70%;
+        margin: auto;
+    }
+}
 @media (max-width: 970px){
     .home-div h1{
         font-size: 30px;
@@ -122,7 +254,7 @@
         margin: auto;
     }
 }
-@media (max-width:699px) {
+@media (max-width:700px) {
     .bod1{
         color: white;
         background-image: url(../../assets/image4i.jpg);
