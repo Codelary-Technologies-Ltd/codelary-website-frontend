@@ -1,13 +1,12 @@
-import React from 'react';
+import React, { useState } from 'react';
 import logo from '../../assets/codelaryy.png';
 import Hamburger from '../Hamburger';
 import './NavBar.css'
-import React, { useState } from 'react'
 function NavBar() {
 
   const [color, setColor] = useState(false)
   const colorChange = ()=>{
-    if(window.scrollY > 1920){
+    if(window.scrollY > 730){
       setColor(true)
     }
     else{
@@ -16,6 +15,8 @@ function NavBar() {
   }
 
   window.addEventListener('scroll', colorChange)
+
+
   return (
     <div>
       <div className={color ? 'first-nav first-nav-bg ': 'first-nav'}>
