@@ -4,12 +4,15 @@
     justify-content: space-between;
     align-items: center;
     margin: auto;
-    position: sticky;
+    position: fixed;
+    top: 0;
+    height: 150px;
+    z-index: 1;
 }
 .nav-flex img{
     background: transparent;
 }
-.spann {
+.spann { 
     font-family: algerian;
     font-size: larger;
     font-weight: 900;
@@ -18,6 +21,7 @@
 .second-nav ul{
     display: flex;
     gap: 50px;
+    margin: 0;
     padding-bottom: 15px;
     border-bottom: 1px solid #AB7E5F;
 }
