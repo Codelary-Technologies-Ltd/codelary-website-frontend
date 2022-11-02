@@ -114,6 +114,21 @@
         margin: auto;
     }
 }
+@media (max-width:699px) {
+    .bod1{
+        color: white;
+        background-image: url(../../assets/image4i.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        background-color: #283C61;
+        background-blend-mode: multiply;
+        position: relative;
+        overflow: hidden;
+        opacity: 0.9;
+    }
+}
 
 @media (max-width: 500px){
     .home-div h1{
@@ -128,5 +143,18 @@
         text-align: center;
         width: 500px;
         margin: auto;
+    }
+    .bod1{
+        color: white;
+        background-image: url(../../assets/image4i.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 100vh;
+        background-color: #283C61;
+        background-blend-mode: multiply;
+        position: relative;
+        overflow: hidden;
+        opacity: 0.9;
     }
 }
