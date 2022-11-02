@@ -399,10 +399,10 @@ textarea {
         margin: auto;
     }
 }
-@media (max-width:500px) {
+@media (max-width:529px) {
     .bluei, .linkd, .insta, .twit {
         color: white;
-        width: 145%;
+        width: 140%;
         margin: auto;
     }
 }
