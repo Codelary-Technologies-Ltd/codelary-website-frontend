@@ -8,7 +8,7 @@ function NavBar() {
     <div>
       <div className='first-nav'>
           <div className='nav-flex'>
-              <img src={logo} alt="codelary" width={150} height={150}/>
+              <a href="#homepage-us"><img src={logo} alt="codelary" width={150} height={150}/></a>
           </div>            
           <nav className='second-nav'>
           <ul>
