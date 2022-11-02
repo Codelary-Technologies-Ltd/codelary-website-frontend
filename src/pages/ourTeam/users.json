@@ -28,7 +28,7 @@
       "linkd_link": "https://linkedin.com/momohrasheed06",
       "twitter_link": "twitter.com/momohrasheed06",
       "pic":"Pictures/3.jpg",
-      "about": "Program Coordinator/Software Developer",
+      "about": "Project Coordinator/Software Developer",
       "profile":"view portfolio",
       "portfolio_link":"#"
     },
@@ -42,5 +42,38 @@
         "about": "Product Designer/Software Developer",
         "profile":"view portfolio",
         "portfolio_link":"#"
+    },
+    {
+      "id": 5,
+      "name": "Harrison Akunne",
+      "github_link": "https://github.com/Harry654",
+      "linkd_link": "https://linkedin.com/momohrasheed06",
+      "twitter_link": "twitter.com/momohrasheed06",
+      "pic":"Pictures/5.jpg",
+      "about": "Database Administrator/Software Engineer",
+      "profile":"view portfolio",
+      "portfolio_link":"#"
+    },
+    {
+      "id": 6,
+      "name": "Fiki Mayomikun",
+      "github_link": "https://github.com/Fiki-josh",
+      "linkd_link": "https://linkedin.com/momohrasheed06",
+      "twitter_link": "twitter.com/momohrasheed06",
+      "pic":"Pictures/6.jpg",
+      "about": "UI/UX Designer/Software Developer",
+      "profile":"view portfolio",
+      "portfolio_link":"#"
+    },
+    {
+      "id": 7,
+      "name": "Maryam Suleiman",
+      "github_link": "https://github.com/MaryamSuleiman",
+      "linkd_link": "https://linkedin.com/momohrasheed06",
+      "twitter_link": "twitter.com/momohrasheed06",
+      "pic":"Pictures/7.jpg",
+      "about": "Project Scheduler/Software Developer",
+      "profile":"view portfolio",
+      "portfolio_link":"#"
     }
 ]
