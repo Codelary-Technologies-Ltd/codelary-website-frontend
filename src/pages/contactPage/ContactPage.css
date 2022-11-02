@@ -237,11 +237,6 @@ textarea {
         font-size: 1.3rem;
         margin: 4rem 1rem 1rem 1rem;
     }
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 80%;
-        margin: auto;
-    }
 }
 @media (max-width:764px) {
     .col-2c .absc h1{
@@ -304,6 +299,8 @@ textarea {
         margin: 4rem 1rem 1rem 1rem;
     }
 }
+
+
 @media (max-width:616px) {
     .colc h2{
         text-align: center;
@@ -362,6 +359,20 @@ textarea {
         font-weight: bolder;
     } 
 }
+@media (max-width:800px) {
+    .bluei, .linkd, .insta, .twit {
+        color: white;
+        width: 80%;
+        margin: auto;
+    }
+}
+@media (max-width:760px) {
+    .bluei, .linkd, .insta, .twit {
+        color: white;
+        width: 100%;
+        margin: auto;
+    }
+}
 @media (max-width:750px) {
     .bluei, .linkd, .insta, .twit {
         color: white;
@@ -372,7 +383,7 @@ textarea {
 @media (max-width:680px) {
     .bluei, .linkd, .insta, .twit {
         color: white;
-        width: 110%;
+        width: 125%;
         margin: auto;
     }
 }
@@ -384,7 +395,14 @@ textarea {
     } 
     .bluei, .linkd, .insta, .twit {
         color: white;
-        width: 95%;
+        width: 100%;
+        margin: auto;
+    }
+}
+@media (max-width:529px) {
+    .bluei, .linkd, .insta, .twit {
+        color: white;
+        width: 140%;
         margin: auto;
     }
 }
