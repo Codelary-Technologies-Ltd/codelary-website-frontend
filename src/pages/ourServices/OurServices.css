@@ -10,6 +10,7 @@
     width: 100%;
     margin: auto;
     padding: 5rem;
+    border: 1px solid pink;
 }
 .service-box {
     /* max-width: 30%; */
@@ -252,6 +253,9 @@
         font-weight: 500;
         border-bottom: 3px solid #ab7e5f;
     }
+    .service-contain{
+        padding:3rem 1rem;
+    }
     .service-text h2{
         justify-items: center;
         font-size: 8px;
@@ -266,8 +270,9 @@
 }
 @media (max-width:750px) {
     .service-box {
-        max-width: 70%;
-        display: grid;
+        max-width: 90%;
+        display: flex;
+        flex-direction: column;
         align-items: center;
         gap: 20px;
         background-color: #304771;
@@ -298,31 +303,37 @@
 }
 @media (max-width:670px) {
     .service-contain {
-        display: grid;
+        display: flex;
+        flex-direction: column;
         justify-content: center;
         gap: 35px;
         width: 100%;
         margin: auto;
-        padding: 5rem;
+        padding: 5rem 3rem;
     }
     .service-container h1 {
         width: 25%;
         margin: auto;
         text-align: center;
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 500;
         border-bottom: 3px solid #ab7e5f;
     }
     .service-text h2{
         justify-items: center;
-        font-size: 13px;
+        font-size: 15px;
         font-weight: 600;
         color: #ab7e5f;
         margin-bottom: .5rem;
     }
     .service-text p {
         width: 100%;
-        font-size: 11px;
+        font-size: 13px;
+    }
+    .service-box{
+        padding: 2rem 5rem;
+        width: 100%;
+        margin: auto;
     }
 }
 @media (max-width:509px) {
@@ -330,19 +341,27 @@
         width: 30%;
         margin: auto;
         text-align: center;
-        font-size: 15px;
+        font-size: 17px;
         font-weight: 500;
         border-bottom: 3px solid #ab7e5f;
     }
     .service-text h2{
         justify-items: center;
-        font-size: 11px;
+        font-size: 15px;
         font-weight: 600;
         color: #ab7e5f;
         margin-bottom: .5rem;
     }
     .service-text p {
         width: 100%;
-        font-size: 9px;
+        font-size: 13px;
+    }
+    .service-box{
+        padding: 2rem 7rem;
+        width: 100%;
+        margin: auto;
+    }
+    .service-contain{
+        width: 100%;
     }
 }
