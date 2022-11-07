@@ -21,12 +21,23 @@
     justify-content: center;
     flex-wrap: wrap;
     margin: auto;
-    width: 98%;
+    width: 95%;
+    max-width: 1440px;
+    gap: 30px;
 }
 .ab{
     margin: 5rem auto;
     color: #283C61;
     z-index: 0;
+}
+.top1 {   
+    border: 1px solid pink;
+}
+.top {
+    border: 1px solid pink;
+    /* width: 90%; */
+    margin: auto;
+
 }
 .cardpics{
     margin: 5px;
