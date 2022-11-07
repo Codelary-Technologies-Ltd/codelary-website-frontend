@@ -13,8 +13,10 @@ function TeamPage() {
         <h1 >Our Team</h1>
         <p>We are a team of dedicated software designers and developers. We live and breathe tech 7 days a week.</p>
         </div>
-        <TeamList userss={users}/> 
-        
+        <div className='top'>
+          <TeamList userss={users}/> 
+        </div>
+           
     </div>
     
     

@@ -6,7 +6,7 @@ import twitterlogo from '../../assets/twitter.png';
 
 function TeamCard({pic, github, linkd, twitter, name, about, portfolio, profile}) {
   return (
-    <div>
+    <div className='top1'>
         <div className='cardpics'>
             <img className='pics' src={pic} alt="pimage" />
             <div className="pix">
