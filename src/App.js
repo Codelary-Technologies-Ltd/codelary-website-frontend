@@ -4,11 +4,12 @@ import AboutPage from './pages/aboutUs/AboutPage';
 import OurServices from './pages/ourServices/OurServices';
 import TeamPage from './pages/ourTeam/TeamPage';
 import ContactPage from './pages/contactPage/ContactPage';
+import NavBar from './pages/homePage/NavBar';
 // import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-    <div>
+    <div className='App'>
       {/* <Router>
         <Routes>
           <Route exact path='/' element={<HomePage />}/>
@@ -18,7 +19,7 @@ function App() {
           <Route exact path='/contact' element={<ContactPage />}/>
         </Routes>
       </Router> */}
-
+      <NavBar />
       <HomePage/>
       <AboutPage/>
       <OurServices/>
