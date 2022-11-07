@@ -20,7 +20,6 @@ function NavBar() {
 
 
   return (
-    <div>
       <div className={color ? 'first-nav first-nav-bg ': 'first-nav'}>
           <div className='nav-flex'>
               <a href="#homepage-us"><img src={logo} alt="codelary" width={150} height={150}/></a>
@@ -38,7 +37,6 @@ function NavBar() {
             <Hamburger/>
           </div>
       </div>
-    </div>
   )
 }
 
