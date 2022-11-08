@@ -337,7 +337,7 @@
         width: 255px;
     }
     .home-div p{
-        font-size: 11px;
+        font-size: 9px;
         text-align: center;
         width: 255px;
         margin: auto;
@@ -348,7 +348,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 90vh;
+        min-height: 85vh;
         background-color: #283C61;
         background-blend-mode: multiply;
         position: relative;
@@ -359,6 +359,7 @@
         display: flex;
         justify-content: center;
         margin: 0;
-        gap: 20px;
+        gap: 15px;
+        font-size: x-small;
     }
 }
