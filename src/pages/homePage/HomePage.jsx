@@ -1,8 +1,7 @@
 import React from 'react';
-// import NavBar from './NavBar';
 import './HomePage.css';
 import CustomButton from '../../components/customButton/CustomButton';
-// import { Link } from 'react-router-dom';
+
 
 function HomePage() {
   return (
