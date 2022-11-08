@@ -5,7 +5,6 @@ import {DeviceMobile, Globe, Laptop} from "phosphor-react";
 function OurServices() {
   return (
     <div className='service-container'id='our-services-us'>
-
         <h1 >Our Services</h1>
         <div className="service-contain">
             <div className="service-box">
