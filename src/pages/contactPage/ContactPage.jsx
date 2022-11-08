@@ -25,22 +25,26 @@ function ContactPage(){
                     <div className="absc"id="contact-us">
                         <h1 >Contact Us</h1>
                         <div className="groupc" style={{margin: '80px 0 0'}}>
-                            <MapPin size={32} />  
+                            <MapPin size={32} className='
+                            contact-icon' />  
                             <span> Physical Address</span>
                         </div>
                         <span className="movec">Suite 5 Mangal Plaza, Wuse Zone 1, Abuja.</span><br /><br />
                         <div className="groupc">
-                            <Phone size={32} /> 
+                            <Phone size={32} className='
+                            contact-icon' /> 
                             <span> Let's Talk</span>
                         </div>
                         <span className="movec">+234-70-31839826</span><br /><br />
                         <div className="groupc">
-                            <WhatsappLogo size={32} /> 
+                            <WhatsappLogo size={32} className='
+                            contact-icon' /> 
                             <span> Let's Chat</span>
                         </div>
                         <span className="movec">+234-80-85702341</span><br /><br />
                         <div className="groupc">
-                            <EnvelopeSimple size={32} />
+                            <EnvelopeSimple size={32} className='
+                            contact-icon' />
                             <span>E-mail Address</span>
                         </div>
                         <span className="movec">codelarytechnologiesltd@gmail.com</span>
