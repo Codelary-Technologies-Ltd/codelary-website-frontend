@@ -56,7 +56,7 @@
         padding: 50px;
         color: white;
         padding-top: 100px;
-        background: transparent;
+        background: #283C61;
         list-style-type: none;
         -webkit-font-smoothing: antialiased;
         /* to stop flickering of text in safari */
@@ -80,7 +80,7 @@
 @media (max-width:320px) {
     .ham-span{
         display: block;
-        width: 2px;
+        width: 25px;
         height: 3px;
         margin-right: 20px;
         margin-bottom: 5px;
