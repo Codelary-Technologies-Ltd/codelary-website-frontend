@@ -1,12 +1,13 @@
 .about-container {
     background-color: white;
     color: #283C61;
-    display: flex;
-    width: 90%;
     margin: 5rem auto;
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
 }
 .about-image {
-    width: 50%;
+    width: 45%;
     box-shadow: 8px 8px 0px 0px rgb(171, 126, 95);
 }
 .about-image img {
@@ -16,13 +17,15 @@
 }
 .about-text {
     width: 50%;
-    padding: 0 5rem;
 }
 .about-text h1 {
-    width: 30%;
     font-size: xx-large;
     border-bottom: 3px solid #AB7E5F;
+    margin: 0;
     margin-bottom: 2rem;
+    width: fit-content;
+    margin-left: auto;
+    margin-right: auto
 }
 .about-text h2 {
     font-size: large;
@@ -38,40 +41,7 @@
 .about-heading {
     margin-top: 2rem;
 }
-.image-h1{
-    display: none;
-}
 
-
-@media (max-width:1316px){
-    .about-text h1 {
-        width: 30%;
-        font-size: x-large;
-        border-bottom: 3px solid #AB7E5F;
-        margin-bottom: 2rem;
-    }
-}
-@media (max-width:1080px){
-    .about-text h1 {
-        width: 30%;
-        font-size: larger;
-        border-bottom: 3px solid #AB7E5F;
-        margin-bottom: 2rem;
-    }
-}
-@media (max-width:938px){
-    .about-container {
-        background-color: white;
-        color: #283C61;
-        display: flex;
-        width: 100%;
-        margin: 5rem auto;
-    }
-    .about-text {
-        width: 60%;
-        padding: 0 5rem;
-    }
-}
 @media (max-width:900px) {
     .about-image {
         width: 40%;
@@ -79,59 +49,15 @@
         box-shadow: 8px 8px 0px 0px rgb(171, 126, 95);
     }
 }
-@media (max-width:800px) {
-    .about-container {
-        background-color: white;
-        color: #283C61;
-        display: flex;
-        width: 100%;
-        margin: 5rem auto;
-    }
-    
-}
-@media (max-width:708px) {
-    .about-text h1 {
-        width: 30%;
-        text-align: center;
-        font-size: large;
-        border-bottom: 3px solid #AB7E5F;
-        margin-bottom: 2rem;
-    }
+@media (max-width:760px) {
     .about-image {
-        width: 30%;
-        margin: 3rem auto;
-    }
-    .about-text {
-        width: 85%;
-        /* padding: 5rem; */
-    }
-}
-@media (max-width:600px) {
-    .about-container {
-        background-color: white;
-        color: #283C61;
-        display: grid;
-        width: 100%;
-        margin: 5rem auto;
-    }
-    .about-text h1{
         display: none;
     }
-    .image-h1 {
-        display: block;
-        text-align: center;
-        width: 25%;
-        margin: 0 auto;
-        font-size: x-large;
-        border-bottom: 3px solid #AB7E5F;
-        /* margin-bottom: 2rem; */
+    .about-text{
+        width: 80%;
     }
-    .about-image {
-        width: 90%;
-        box-shadow: 8px 8px 0px 0px rgb(171, 126, 95);
+    .about-container{
+        justify-content: center;
     }
-    .about-text {
-        width: 85%;
-        padding: 1rem;
-    }
+    
 }
