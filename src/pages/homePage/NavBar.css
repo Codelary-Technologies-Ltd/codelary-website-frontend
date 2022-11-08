@@ -53,5 +53,8 @@
  }
 }
 @media (max-width:320px) {
-    
+    .nav-flex img{
+        background: transparent;
+        width: 100px;
+    } 
 }
