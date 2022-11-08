@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../assets/codelaryy.png';
+import logo from '../../assets/codelary1.png';
 import Hamburger from '../Hamburger';
 import './NavBar.css'
 function NavBar() {
@@ -21,21 +21,34 @@ function NavBar() {
 
   return (
       <div className={color ? 'first-nav first-nav-bg ': 'first-nav'}>
-          <div className='nav-flex'>
-              <a href="#homepage-us"><img src={logo} alt="codelary" width={150} height={150}/></a>
-          </div>            
-          <nav className='second-nav'>
+        <div className='nav-flex'>
+            <a href="#homepage-us">
+              <img src={logo} alt="codelary-logo" className='codelary-logo' />
+              <p className='logo-txt'>Codelary Technologies</p>
+            </a>
+        </div>            
+        <nav className='second-nav'>
           <ul>
-              <li> <a href="#homepage-us"> Home</a></li>
-              <li><a href="#about-us"> About Us</a></li>
-              <li><a href="#our-services-us"> Our Services</a></li>
-              <li><a href="#our-team-us"> Our Team</a></li>
-              <li><a href="#contact-us"> Contact Us</a></li>
-              </ul> 
-          </nav>
-          <div className='my-ham'>
-            <Hamburger/>
-          </div>
+            <li>
+              <a href="#homepage-us"> Home</a>
+            </li>
+            <li>
+              <a href="#about-us"> About Us</a>
+            </li>
+            <li>
+              <a href="#our-services-us"> Our Services</a>
+            </li>
+            <li>
+              <a href="#our-team-us"> Our Team</a>
+            </li>
+            <li>
+              <a href="#contact-us"> Contact Us</a>
+            </li>
+          </ul> 
+        </nav>
+        <div className='my-ham'>
+          <Hamburger/>
+        </div>
       </div>
   )
 }
