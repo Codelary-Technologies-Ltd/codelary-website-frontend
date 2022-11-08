@@ -80,6 +80,18 @@
     display: none;
  }
 }
+@media (max-width:790px) {
+    .second-nav{
+        display: none;
+     }
+     .my-ham{
+        display: block;
+     }
+     .logo-txt{
+        display: flex;
+     }
+}
+
 @media (max-width:320px) {
     .nav-flex img{
         background: transparent;
@@ -93,4 +105,7 @@
         padding: 25px 10px 5px 10px;
         /* position: absolute; */
     }
+    .logo-txt{
+        display: none;
+     }
 }
