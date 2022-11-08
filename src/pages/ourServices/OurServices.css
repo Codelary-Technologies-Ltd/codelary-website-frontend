@@ -366,6 +366,11 @@
     }
 }
 @media (max-width:320px) {
+    .service-container {
+        background-color: #283C61;
+        color: white;
+        /* padding: 5rem 0; */
+    }
     .service-container h1 {
         width: 60%;
         margin: auto;
@@ -386,9 +391,10 @@
         font-size: 10px;
     }
     .service-box{
-        /* padding:auto; */
+        padding:10px 95px;
         width: 100%;
-        margin: auto 60px auto 0;
+        margin-top: 3rem;
+        left: 0;
     }
     .service-contain{
         max-width: 320px;
