@@ -353,7 +353,7 @@
         margin-bottom: .5rem;
     }
     .service-text p {
-        width: 100%;
+        width: 150px;
         font-size: 13px;
     }
     .service-box{
@@ -376,21 +376,24 @@
     }
     .service-text h2{
         justify-items: center;
-        font-size: 15px;
+        font-size: 12px;
         font-weight: 600;
         color: #ab7e5f;
         margin-bottom: .5rem;
     }
     .service-text p {
-        width: 100%;
-        font-size: 13px;
+        width: 150px;
+        font-size: 10px;
     }
     .service-box{
-        padding: 2rem 7rem;
+        /* padding:auto; */
         width: 100%;
-        margin: auto;
+        margin: auto 60px auto 0;
     }
     .service-contain{
+        max-width: 320px;
         width: 100%;
+        margin: auto;
+        padding:1rem 0;
     }
 }
