@@ -1,10 +1,23 @@
-import React from "react";
+import React,{useRef} from "react";
 import CustomInput from '../../components/customInput/CustomInput';
 import CustomButton from '../../components/customButton/CustomButton';
+import emailjs from '@emailjs/browser';
 import { MapPin, Phone, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo, WhatsappLogo } from 'phosphor-react';
 import './ContactPage.css';
 
 function ContactPage(){
+    const form = useRef()
+
+    const sendEmail = (e) => {
+        e.preventDefault();
+        emailjs.sendForm('service_4vipr4q', 'template_ug28678', form.current, 'KDtoeIXgOmYG09dsr')
+      .then((result) => {
+          console.log(result.text);
+      }, (error) => {
+          console.log(error.text);
+      });
+      e.target.reset()
+    }
     return(
         <div className="contact-container">
             <div className="smallContc">
@@ -33,14 +46,14 @@ function ContactPage(){
                         <span className="movec">codelarytechnologiesltd@gmail.com</span>
                     </div>
                 </div>
-                <form className='formc'>
+                <form className='formc' onSubmit={sendEmail} ref={form}>
                     <div className="colc">          
                     <h2>Send Us A Message</h2>
-                    <CustomInput placeholder='Your full name*' name="name" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
-                    <CustomInput placeholder='Email*' name="email" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
-                    <CustomInput placeholder='Phone number*' name="phone" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
+                    <CustomInput  placeholder='Your full name*' name="user_name" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
+                    <CustomInput  placeholder='Email*' name="user_email" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
+                    <CustomInput  placeholder='Phone number*' name="user_phone" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
                     <textarea placeholder="Write us a message" cols="20" rows="4" id="textc" name="message"></textarea>
-                        <CustomButton title = 'SUBMIT' style = {{width: '100%', margin: '8px 0% 0', padding: '.8rem', backgroundColor: '#AB7E5F'}} />
+                        <CustomButton title = 'SUBMIT' type = 'submit' style = {{width: '100%', margin: '8px 0% 0', padding: '.8rem', backgroundColor: '#AB7E5F'}} />
                     </div>
                 </form>
             </div>  

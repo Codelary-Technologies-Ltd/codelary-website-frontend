@@ -1,21 +1,44 @@
 .first-nav{
     width: 90%;
+    margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: auto;
     position: fixed;
     top: 0;
+    left: 5%;
     height: 150px;
     z-index: 5;
+    opacity: 0.9;
+
 }
 .first-nav-bg {
     background-color: #283C61;
     z-index: 3;
     width: 100%;
+    left: 0;
+    padding: 0 30px;
     height: 100px;
-    padding: 25px 60px 10px 60px;
+    /*
+    
+    padding: 25px 60px 10px 60px; */
     /* position: absolute; */
+}
+.nav-flex a{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.codelary-logo{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+.logo-txt{
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.1rem;
+    font-weight: bold;
 }
 .nav-flex img{
     background: transparent;
@@ -31,6 +54,8 @@
     gap: 50px;
     margin: 0;
     padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
     border-bottom: 1px solid #AB7E5F;
 }
 .second-nav li{
@@ -44,12 +69,15 @@
 .my-ham {
     display: none;
 }
-@media (max-width: 920px){
- .second-nav{
+@media (max-width: 995px){
+ /* .second-nav{
     display: none;
  }
  .my-ham{
     display: block;
+ } */
+ .logo-txt{
+    display: none;
  }
 }
 @media (max-width:320px) {

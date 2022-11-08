@@ -1,5 +1,5 @@
 import React from 'react';
-import NavBar from './NavBar';
+// import NavBar from './NavBar';
 import './HomePage.css';
 import CustomButton from '../../components/customButton/CustomButton';
 // import { Link } from 'react-router-dom';
@@ -7,7 +7,7 @@ import CustomButton from '../../components/customButton/CustomButton';
 function HomePage() {
   return (
     <div className='bod1' id='homepage-us'>
-        <NavBar />
+        {/* <NavBar /> */}
         <div className='bod'>
             <div className='home-div'>
                 <h1 >Reliable, Secured and Customer Satisfaction for Every Client</h1>
