@@ -18,7 +18,10 @@
 .about-text {
     width: 50%;
 }
-.about-text h1 {
+.mobile-head{
+    display: none;
+}
+.about-text-head{
     font-size: xx-large;
     border-bottom: 3px solid #AB7E5F;
     margin: 0;
@@ -51,13 +54,22 @@
 }
 @media (max-width:760px) {
     .about-image {
-        display: none;
+        /* display: none; */
+        width: 80%;
     }
     .about-text{
         width: 80%;
+        margin: 20px auto;
     }
     .about-container{
         justify-content: center;
+        flex-direction: column;
+    }
+    .about-text-head{
+        display: none;
+    }
+    .mobile-head{
+        display: block;
     }
     
 }
