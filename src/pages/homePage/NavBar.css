@@ -70,12 +70,6 @@
     display: none;
 }
 @media (max-width: 995px){
- /* .second-nav{
-    display: none;
- }
- .my-ham{
-    display: block;
- } */
  .logo-txt{
     display: none;
  }
@@ -92,6 +86,11 @@
      }
 }
 
+@media (max-width:520px) {
+    .logo-txt{
+        display: none;
+    }
+}
 @media (max-width:320px) {
     .nav-flex img{
         background: transparent;
@@ -103,9 +102,6 @@
         width: 100%;
         height: 100px;
         padding: 25px 10px 5px 10px;
-        /* position: absolute; */
     }
-    .logo-txt{
-        display: none;
-     }
+    
 }

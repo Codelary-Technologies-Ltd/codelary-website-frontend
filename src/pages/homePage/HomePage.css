@@ -13,25 +13,27 @@
 }
 
 .bod{
-    margin: 20rem auto 0 auto;
+    margin: 15rem auto 0 auto;
+    
 }
 .home-div{
-    width: 75%;
-    margin: 8rem auto 3rem;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
 }
 .home-div h1{
-    font-size: 50px;
+    font-size: 2.5rem;
     font-weight: 400;
-    text-align: center;
-    margin:30px auto;
-    width: 80%;
+    margin-bottom: 30px;
 }
 .home-div p{
     font-size: larger;
-    text-align: center;
-    width: 55%;
-    margin: auto;
     color: whitesmoke;
+    width: 70%;
+    margin: 10px auto;
 }
 .custom-data{
     display: flex;
@@ -41,219 +43,17 @@
 }
 .custom-data :hover {
     background-color: #AB7E5F;
+    border-radius: 8px;
 }
-
-@media (max-width: 1908px) {
+@media (max-width: 1024px){
     .home-div h1{
-        font-size: 50px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
+        font-size: 2rem;
     }
     .home-div p{
-        font-size: large;
-        text-align: center;
-        width: 50%;
-        margin: auto;
+        font-size:medium;
     }
 }
-
-@media (max-width: 1906px){
-    .home-div h1{
-        font-size: 47px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
-    }
-}
-@media (max-width: 1793px){
-    .home-div h1{
-        font-size: 44px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
-    }
-}
-@media (max-width: 1680px){
-    .home-div h1{
-        font-size: 41px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
-    }
-    .home-div p{
-        font-size: large;
-        text-align: center;
-        width: 58%;
-        margin: auto;
-    }
-}
-@media (max-width: 1566px){
-    .home-div h1{
-        font-size: 38px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
-    }
-    .home-div p{
-        font-size: large;
-        text-align: center;
-        width: 58%;
-        margin: auto;
-    }
-}
-@media (max-width: 1453px){
-    .home-div h1{
-        font-size: 36px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
-    }
-}
-@media (max-width: 1490px){
-    .home-div p{
-        font-size: large;
-        text-align: center;
-        width: 50%;
-        margin: auto;
-    }
-}
-
-@media (max-width: 1377px){
-    .home-div h1{
-        font-size: 34px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
-    }
-    .home-div p{
-        font-size: large;
-        text-align: center;
-        width: 70%;
-        margin: auto;
-    }
-}
-@media (max-width: 1302px){
-    .home-div h1{
-        font-size: 30px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
-    }
-    .home-div p{
-        font-size: 15px;
-        text-align: center;
-        width: 58%;
-        margin: auto;
-    }
-}
-@media (max-width: 1150px){
-    .home-div h1{
-        font-size: 28px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
-    }
-    .home-div p{
-        font-size: 15px;
-        text-align: center;
-        width: 70%;
-        margin: auto;
-    }
-}
-@media (max-width: 1075px){
-    .home-div h1{
-        font-size: 26px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
-    }
-    .home-div p{
-        font-size: 15px;
-        text-align: center;
-        width: 70%;
-        margin: auto;
-    }
-}
-@media (max-width: 999px){
-    .home-div h1{
-        font-size: 24px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 70%;
-    }
-    .home-div p{
-        font-size: smaller;
-        text-align: center;
-        width: 70%;
-        margin: auto;
-    }
-}
-@media (max-width: 970px){
-    .home-div h1{
-        font-size: 30px;
-        font-weight: 300;
-        text-align: center;
-        margin:30px auto;
-        width: 600px;
-    }
-    .home-div p{
-        font-size: large;
-        text-align: center;
-        width: 94%;
-        margin: auto;
-    }
-}
-@media (max-width: 800px){
-    .home-div h1{
-        font-size: 41px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 850px;
-    }
-    .home-div p{
-        font-size: large;
-        text-align: center;
-        width: 800px;
-        margin: auto;
-    }
-}
-@media (max-width: 799px){
-    .home-div h1{
-        font-size: 30px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 600px;
-    }
-    .home-div p{
-        font-size: large;
-        text-align: center;
-        width: 650px;
-        margin: auto;
-    }
-}
-@media (max-width:736px) {
-    .home-div p{
-        font-size: large;
-        text-align: center;
-        width: 630px;
-        margin: auto;
-    }
-}
-@media (max-width:700px) {
+@media (max-width:768px) {
     .bod1{
         color: white;
         background-image: url(../../assets/image4i.jpg);
@@ -267,51 +67,29 @@
         overflow: hidden;
         opacity: 0.9;
     }
+    .home-div{
+        width: 90%;
+    }
     .home-div h1{
         font-size: 20px;
         font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 400px;
     }
     .home-div p{
         font-size: smaller;
-        text-align: center;
-        width: 570px;
-        margin: auto;
+        width: 80%;
     }
 }
 
-@media (max-width: 650px){
-    .home-div p{
-        font-size: smaller;
-        text-align: center;
-        width: 500px;
-        margin: auto;
-    }
-
-}
-@media (max-width: 575px){
-    .home-div p{
-        font-size: 14px;
-        text-align: center;
-        width: 400px;
-        margin: auto;
-    }
-}
 @media (max-width: 500px){
+    .home-div{
+        width: 95%;
+    }
     .home-div h1{
         font-size: 20px;
-        font-weight: 500;
-        text-align: center;
-        margin:30px auto;
-        width: 400px;
     }
     .home-div p{
-        font-size: 11px;
-        text-align: center;
-        width: 400px;
-        margin: auto;
+        font-size: 10px;
+        width: 90%;
     }
     .bod1{
         color: white;

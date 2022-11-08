@@ -5,12 +5,12 @@ import image1 from '../../assets/image1.jpg';
 function AboutPage() {
   return (
     <div className='about-container' id='about-us'>
-            <h1 className='image-h1' >About Us</h1>
+        <h1 className='about-text-head mobile-head'>About Us</h1>
         <div className="about-image">
-            <img src={image1} alt="image1" width={600} height={600} />
+            <img src={image1} alt="image1"  />
         </div>
         <div className="about-text">
-            <h1>About Us</h1>
+            <h1 className='about-text-head'>About Us</h1>
             <div className="about-heading">
                 <h2>#1 Our Mission</h2>
                 <p>Our mission is to deliver the best possible reliable and secured software solutions to help our clients improve their business efficiency.</p>
