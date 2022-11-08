@@ -168,3 +168,10 @@
         font-size: small;
     }
 }
+
+@media (max-width:540px) {
+    .abouthead h1{
+        margin: 0 auto 20px auto;
+        width: 30%;
+    }
+}
