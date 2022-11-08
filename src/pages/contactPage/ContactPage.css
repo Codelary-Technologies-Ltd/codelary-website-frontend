@@ -421,4 +421,13 @@ textarea {
         font-size: 14px;
         margin-left: 20px;
     }
+    .movec {
+        font-size: 12px;
+        margin-left: 12%;
+    }
+    .colc h2{
+        text-align: center;
+        font-size: smaller;
+        margin: 4rem 1rem 1rem 1rem;
+    }
 }

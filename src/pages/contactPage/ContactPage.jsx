@@ -49,11 +49,14 @@ function ContactPage(){
                 <form className='formc' onSubmit={sendEmail} ref={form}>
                     <div className="colc">          
                     <h2>Send Us A Message</h2>
+                    <div className="custom-input">
                     <CustomInput  placeholder='Your full name*' name="user_name" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
                     <CustomInput  placeholder='Email*' name="user_email" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
                     <CustomInput  placeholder='Phone number*' name="user_phone" style = {{width: '100%', marginBottom: '.5rem', padding: '.8rem', backgroundColor: 'transparent', border: '1px solid white'}} />
                     <textarea placeholder="Write us a message" cols="20" rows="4" id="textc" name="message"></textarea>
-                        <CustomButton title = 'SUBMIT' type = 'submit' style = {{width: '100%', margin: '8px 0% 0', padding: '.8rem', backgroundColor: '#AB7E5F'}} />
+                    <CustomButton title = 'SUBMIT' type = 'submit' style = {{width: '100%', margin: '8px 0% 0', padding: '.8rem', backgroundColor: '#AB7E5F'}} />
+                    </div>
+                    
                     </div>
                 </form>
             </div>  
