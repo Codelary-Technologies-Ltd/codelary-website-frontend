@@ -82,7 +82,7 @@
         display: block;
      }
      .logo-txt{
-        display: flex;
+        display: none;
      }
 }
 
@@ -94,7 +94,8 @@
 @media (max-width:320px) {
     .nav-flex img{
         background: transparent;
-        width: 90px;
+        width: 60px;
+        height: 60px;
     } 
     .first-nav-bg {
         background-color: #283C61;
