@@ -135,3 +135,27 @@
         padding: 1rem;
     }
 }
+@media (max-width:320px) {
+    .image-h1 {
+        display: block;
+        text-align: center;
+        width: 25%;
+        margin: 0 auto;
+        font-size: large;
+        border-bottom: 3px solid #AB7E5F;
+    }
+    .about-text h2 {
+        font-size: large;
+        font-weight: bold;
+        color: #AB7E5F;
+    }
+    .about-text p {
+        font-size: 13px;
+        text-align: justify;
+        font-weight: 700;
+    
+    }
+    .about-heading {
+        margin-top: 1rem;
+    }
+}

@@ -367,11 +367,11 @@
 }
 @media (max-width:320px) {
     .service-container h1 {
-        width: 30%;
+        width: 60%;
         margin: auto;
         text-align: center;
-        font-size: 17px;
-        font-weight: 500;
+        font-size: 16px;
+        font-weight: bold;
         border-bottom: 3px solid #ab7e5f;
     }
     .service-text h2{
