@@ -123,6 +123,7 @@
 textarea {
     background-color: transparent;
     border: 1px solid white;
+    width: 100%;
 }
 .lastpage {
     width: 90%;
