@@ -80,6 +80,18 @@
     display: none;
  }
 }
+@media (max-width:790px) {
+    .second-nav{
+        display: none;
+     }
+     .my-ham{
+        display: block;
+     }
+     .logo-txt{
+        display: flex;
+     }
+}
+
 @media (max-width:320px) {
     .nav-flex img{
         background: transparent;
