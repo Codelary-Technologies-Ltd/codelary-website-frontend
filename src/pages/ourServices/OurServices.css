@@ -352,7 +352,7 @@
         margin-bottom: .5rem;
     }
     .service-text p {
-        width: 100%;
+        width: 150px;
         font-size: 13px;
     }
     .service-box{
@@ -362,5 +362,43 @@
     }
     .service-contain{
         width: 100%;
+    }
+}
+@media (max-width:320px) {
+    .service-container {
+        background-color: #283C61;
+        color: white;
+        /* padding: 5rem 0; */
+    }
+    .service-container h1 {
+        width: 60%;
+        margin: auto;
+        text-align: center;
+        font-size: 16px;
+        font-weight: bold;
+        border-bottom: 3px solid #ab7e5f;
+    }
+    .service-text h2{
+        justify-items: center;
+        font-size: 12px;
+        font-weight: 600;
+        color: #ab7e5f;
+        margin-bottom: .5rem;
+    }
+    .service-text p {
+        width: 150px;
+        font-size: 10px;
+    }
+    .service-box{
+        padding:10px 95px;
+        width: 100%;
+        margin-top: 3rem;
+        left: 0;
+    }
+    .service-contain{
+        max-width: 320px;
+        width: 100%;
+        margin: auto;
+        padding:1rem 0;
     }
 }

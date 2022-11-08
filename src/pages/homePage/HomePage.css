@@ -14,7 +14,6 @@
 
 .bod{
     margin: 20rem auto 0 auto;
-    
 }
 .home-div{
     width: 75%;
@@ -261,7 +260,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 100vh;
+        min-height: 80vh;
         background-color: #283C61;
         background-blend-mode: multiply;
         position: relative;
@@ -290,6 +289,7 @@
         width: 500px;
         margin: auto;
     }
+
 }
 @media (max-width: 575px){
     .home-div p{
@@ -319,11 +319,46 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center;
-        min-height: 100vh;
+        min-height: 80vh;
         background-color: #283C61;
         background-blend-mode: multiply;
         position: relative;
         overflow: hidden;
         opacity: 0.9;
+    }
+}
+@media (max-width:320px) {
+    .home-div h1{
+        font-size: 12px;
+        font-weight: 300;
+        text-align: center;
+        margin:30px auto;
+        width: 255px;
+    }
+    .home-div p{
+        font-size: 9px;
+        text-align: center;
+        width: 255px;
+        margin: auto;
+    }
+    .bod1{
+        color: white;
+        background-image: url(../../assets/image4i.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        min-height: 85vh;
+        background-color: #283C61;
+        background-blend-mode: multiply;
+        position: relative;
+        overflow: hidden;
+        opacity: 0.9;
+    }
+    .custom-data{
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        gap: 15px;
+        font-size: x-small;
     }
 }

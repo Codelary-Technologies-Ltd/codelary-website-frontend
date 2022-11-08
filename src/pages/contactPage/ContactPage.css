@@ -250,7 +250,7 @@ textarea {
 }
 @media (max-width:706px) {
     .smallContc{
-        width: 90%;
+        width: 100%;
         margin: 2rem auto;
         top: 0;
         display: flex;
@@ -406,4 +406,7 @@ textarea {
         width: 140%;
         margin: auto;
     }
+}
+@media (max-width:320px) {
+    
 }
