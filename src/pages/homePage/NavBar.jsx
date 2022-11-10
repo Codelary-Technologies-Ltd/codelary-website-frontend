@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import logo from '../../assets/codelary1.png';
+import logo from '../../assets/codelary4.png';
 import Hamburger from '../Hamburger';
 import './NavBar.css'
 function NavBar() {
@@ -24,7 +24,7 @@ function NavBar() {
         <div className='nav-flex'>
             <a href="#homepage-us">
               <img src={logo} alt="codelary-logo" className='codelary-logo' />
-              <p className='logo-txt'>Codelary Technologies</p>
+              <p className='logo-txt'>odelary Technologies</p>
             </a>
         </div>            
         <nav className='second-nav'>
