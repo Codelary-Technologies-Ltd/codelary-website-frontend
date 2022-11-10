@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 .first-nav{
     width: 90%;
     margin: 0 auto;
@@ -36,7 +37,7 @@
 }
 .logo-txt{
     color: white;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Source Code Pro', monospace;
     font-size: 1.4rem;
     font-weight: bold;
 }
