@@ -39,7 +39,7 @@ function TeamPage() {
   return (
     <div className='ab'>
         <div className='abouthead' id='our-team-us'>
-          <h1 >Our Team{window.innerWidth}</h1>
+          <h1 >Our Team</h1>
           <p>We are a team of dedicated software designers and developers. We live and breathe tech 7 days a week.</p>
         </div>
         <div className='teams-container'>
