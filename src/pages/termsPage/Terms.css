@@ -25,10 +25,10 @@ body {
     font-weight: 100;
 }
 .terms ul {
-    list-style-type:circle ;
+    list-style-type: circle ;
 }
 .terms li {
-    font-size: 13.5px;
+    font-size: 14px;
     font-weight: 500;
     padding-bottom: 10px;
     padding-left: 25px;
