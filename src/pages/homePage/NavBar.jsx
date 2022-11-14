@@ -24,7 +24,7 @@ function NavBar() {
         <div className='nav-flex'>
             <a href="#homepage-us">
               <img src={logo} alt="codelary-logo" className='codelary-logo' />
-              <p className='logo-txt'>odelary Technologies</p>
+              <p className='logo-txt'>odelary</p>
             </a>
         </div>            
         <nav className='second-nav'>

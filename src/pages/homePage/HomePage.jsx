@@ -35,7 +35,7 @@ function HomePage() {
               paddingLeft: '1.8rem', 
               paddingRight: '1.8rem', 
               borderRadius:"8px",
-              padding:"5px 10px"
+              padding:"5px 30px"
             }}/>
           </a>
         </div>
