@@ -96,6 +96,9 @@
 .movec {
     margin-left: 12%;
 }
+.groupc1 {
+    display: none;
+}
 .groupc2{
     display: flex;
     cursor: pointer;
@@ -306,5 +309,24 @@ textarea {
     .contact-icon {
         width: 22px;
         height: 22px;
+    }
+    .lastpage {
+        width: 100%;
+        margin: auto;
+        padding: 1.5rem;
+        border-top: 1px solid white;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .groupc2{
+        display: none;
+        cursor: pointer;
+        color: white;
+    }
+    .groupc1{
+        display: flex;
+        cursor: pointer;
+        color: white;
     }
 }
