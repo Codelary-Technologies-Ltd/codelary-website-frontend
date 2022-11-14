@@ -1,30 +1,19 @@
 import './App.css';
-import HomePage from './pages/homePage/HomePage';
-import AboutPage from './pages/aboutUs/AboutPage';
-import OurServices from './pages/ourServices/OurServices';
-import TeamPage from './pages/ourTeam/TeamPage';
-import ContactPage from './pages/contactPage/ContactPage';
-import NavBar from './pages/homePage/NavBar';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import AllPages from './pages/allPages/AllPages';
+import { Routes, Route, BrowserRouter } from 'react-router-dom';
+import Privacy from './pages/privacyPage/Privacy';
+import Terms from './pages/termsPage/Terms'
 
 function App() {
   return (
     <div className='App'>
-      {/* <Router>
+      <BrowserRouter>
         <Routes>
-          <Route exact path='/' element={<HomePage />}/>
-          <Route exact path='/about-us' element={<AboutPage />}/>
-          <Route exact path='/services' element={<OurServices />}/>
-          <Route exact path='/team' element={<TeamPage />}/>
-          <Route exact path='/contact' element={<ContactPage />}/>
+          <Route path='/' element={<AllPages />}/>
+          <Route path='/privacy-policy' element={<Privacy />}/>
+          <Route exact path='/terms-of-use' element={<Terms />}/>
         </Routes>
-      </Router> */}
-      <NavBar />
-      <HomePage/>
-      <AboutPage/>
-      <OurServices/>
-      <TeamPage/>
-      <ContactPage/>
+      </BrowserRouter>
       
     </div>
   );
