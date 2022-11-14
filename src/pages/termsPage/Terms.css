@@ -14,6 +14,11 @@ body {
     font-weight: 600;
     padding-bottom: 10px;
 }
+.terms h3 {
+    font-size: 25px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
 .terms p {
     font-size: 17px;
     padding-bottom: 20px;
@@ -26,5 +31,5 @@ body {
     font-size: 13.5px;
     font-weight: 500;
     padding-bottom: 10px;
-    padding-left: 20px;
+    padding-left: 25px;
 }
