@@ -200,3 +200,10 @@
         width: 30%;
     }
 }
+@media (max-width:320px) {
+    .abouthead h1{
+        margin: 0 auto 20px auto;
+        width: 50%;
+        font-size: xx-large;
+    }
+}

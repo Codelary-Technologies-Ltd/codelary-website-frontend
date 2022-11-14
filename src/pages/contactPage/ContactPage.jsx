@@ -37,19 +37,19 @@ function ContactPage(){
                             contact-icon' /> 
                             <span> Let's Talk</span>
                         </div>
-                        <span className="movec">+234-70-31839826</span><br /><br />
+                        <span className="movec"><a href="tel:07031839826">+234-70-31839826</a></span><br /><br />
                         <div className="groupc">
                             <WhatsappLogo size={32} className='
                             contact-icon' /> 
                             <span> Let's Chat</span>
                         </div>
-                        <span className="movec">+234-80-85702341</span><br /><br />
+                        <span className="movec"><a href="https://wa.me/08085702341">+234-80-85702341</a></span><br /><br />
                         <div className="groupc">
                             <EnvelopeSimple size={32} className='
                             contact-icon' />
                             <span>E-mail Address</span>
                         </div>
-                        <span className="movec">codelarytechnologiesltd@gmail.com</span>
+                        <span className="movec"><a href="mailto:codelarytechnologiesltd@gmail.com">codelarytechnologiesltd@gmail.com</a></span>
                     </div>
                 </div>
                 <form className='formc' onSubmit={sendEmail} ref={form}>
@@ -67,6 +67,14 @@ function ContactPage(){
                 </form>
             </div>  
                 <div className="lastpage">
+                    <div className="lastpage2">
+                                <div className="groupc1">
+                                    <a href="https://www.facebook.com/profile.php?id=100087274729762"><p><FacebookLogo size={30} className = 'bluei' /></p></a>
+                                    <a href="https://www.linkedin.com/in/codelaryTech"><p><LinkedinLogo size={30} className = 'linkd' /></p></a>
+                                    <a href="https://www.instagram.com"><p><InstagramLogo size={30} className = 'insta'  /></p></a>
+                                    <a href="https://www.twitter.com/codelaryTech"><p><TwitterLogo size={30} className = 'twit' /></p></a>
+                                </div>
+                        </div>
                     <div className="lastpage1">
                         <Link to={'/privacy-policy'}>
                             <span>Privacy Policy </span>

@@ -96,6 +96,9 @@
 .movec {
     margin-left: 12%;
 }
+.groupc1 {
+    display: none;
+}
 .groupc2{
     display: flex;
     cursor: pointer;
@@ -288,3 +291,56 @@ textarea {
         margin: auto;
     }
 } 
+@media (max-width:320px) {
+    .col-2c .absc h1{
+        width: 65%;
+        margin: auto;
+        font-size: 1.8rem;
+        text-align: center;
+        border-bottom: 3px solid #AB7E5F;
+    }
+    .groupc span{
+        font-size: .9rem;
+        margin-left: 20px;
+    }
+    .movec{
+        font-size: 11.07px;
+    }
+    .contact-icon {
+        width: 22px;
+        height: 22px;
+    }
+    .lastpage {
+        width: 100%;
+        margin: auto;
+        padding: 1.5rem;
+        border-top: 1px solid white;
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .groupc2{
+        display: none;
+        cursor: pointer;
+        color: white;
+    }
+    .groupc1{
+        display: flex;
+        cursor: pointer;
+        color: white;
+        width: 80%;
+        margin: auto;
+    }
+    .bluei, .linkd, .insta, .twit {
+        color: white;
+        width: 18px;
+        height: 18px;
+        margin: auto;
+    }
+    .lastpage1 {
+        text-align: center;
+    }
+    .lastpage3 {
+        text-align: center;
+    }
+}
