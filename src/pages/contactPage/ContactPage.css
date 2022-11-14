@@ -328,5 +328,13 @@ textarea {
         display: flex;
         cursor: pointer;
         color: white;
+        width: 80%;
+        margin: auto;
+    }
+    .bluei, .linkd, .insta, .twit {
+        color: white;
+        width: 18px;
+        height: 18px;
+        margin: auto;
     }
 }
