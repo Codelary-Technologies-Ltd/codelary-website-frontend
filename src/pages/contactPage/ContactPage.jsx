@@ -37,13 +37,13 @@ function ContactPage(){
                             contact-icon' /> 
                             <span> Let's Talk</span>
                         </div>
-                        <span className="movec">+234-70-31839826</span><br /><br />
+                        <span className="movec"><a href="tel:07031839826">+234-70-31839826</a></span><br /><br />
                         <div className="groupc">
                             <WhatsappLogo size={32} className='
                             contact-icon' /> 
                             <span> Let's Chat</span>
                         </div>
-                        <span className="movec">+234-80-85702341</span><br /><br />
+                        <span className="movec"><a href="https://wa.me/08085702341">+234-80-85702341</a></span><br /><br />
                         <div className="groupc">
                             <EnvelopeSimple size={32} className='
                             contact-icon' />
