@@ -1,0 +1,30 @@
+body {
+    background-color: #f6f7f9;
+}
+.terms {
+    width: 55%;
+    margin: 5% auto;
+    word-wrap: break-word;
+    background-color: white;
+    padding: 40px 75px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.terms h1 {
+    font-size: 35px;
+    font-weight: 600;
+    padding-bottom: 10px;
+}
+.terms p {
+    font-size: 17px;
+    padding-bottom: 20px;
+    font-weight: 100;
+}
+.terms ul {
+    list-style-type:circle ;
+}
+.terms li {
+    font-size: 13.5px;
+    font-weight: 500;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
