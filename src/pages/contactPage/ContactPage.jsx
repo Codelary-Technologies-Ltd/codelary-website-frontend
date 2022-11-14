@@ -49,7 +49,7 @@ function ContactPage(){
                             contact-icon' />
                             <span>E-mail Address</span>
                         </div>
-                        <span className="movec">codelarytechnologiesltd@gmail.com</span>
+                        <span className="movec"><a href="mailto:codelarytechnologiesltd@gmail.com">codelarytechnologiesltd@gmail.com</a></span>
                     </div>
                 </div>
                 <form className='formc' onSubmit={sendEmail} ref={form}>
