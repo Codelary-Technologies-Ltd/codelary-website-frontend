@@ -5,20 +5,21 @@ import OurServices from './pages/ourServices/OurServices';
 import TeamPage from './pages/ourTeam/TeamPage';
 import ContactPage from './pages/contactPage/ContactPage';
 import NavBar from './pages/homePage/NavBar';
-// import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Privacy from './pages/privacyPage/Privacy';
 
 function App() {
   return (
     <div className='App'>
-      {/* <Router>
+      <Router>
         <Routes>
-          <Route exact path='/' element={<HomePage />}/>
-          <Route exact path='/about-us' element={<AboutPage />}/>
-          <Route exact path='/services' element={<OurServices />}/>
+          <Route exact path='/privacy-policy' element={<Privacy />}/>
+          {/* <Route exact path='/about-us' element={<AboutPage />}/> */}
+          {/* <Route exact path='/services' element={<OurServices />}/>
           <Route exact path='/team' element={<TeamPage />}/>
-          <Route exact path='/contact' element={<ContactPage />}/>
+          <Route exact path='/contact' element={<ContactPage />}/> */}
         </Routes>
-      </Router> */}
+      </Router>
       <NavBar />
       <HomePage/>
       <AboutPage/>
