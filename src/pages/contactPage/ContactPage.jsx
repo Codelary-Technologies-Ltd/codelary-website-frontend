@@ -70,7 +70,8 @@ function ContactPage(){
                     <div className="lastpage1">
                     <a href="#privacy"><span>Privacy Policy </span> </a>
                     <p>|</p>
-                    <a href=""><span>Terms And Conditions</span></a>
+                    <Link to={'/privacy-policy'}><span>Terms And Conditions</span></Link>
+                    {/* <a href="#"><span>Terms And Conditions</span></a> */}
                     </div>
                     <div className="lastpage2">
                             <div className="groupc2">
