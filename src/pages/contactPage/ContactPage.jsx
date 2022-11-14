@@ -5,7 +5,6 @@ import emailjs from '@emailjs/browser';
 import { MapPin, Phone, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo, WhatsappLogo } from 'phosphor-react';
 import './ContactPage.css';
 import { Link } from 'react-router-dom'
-import Privacy from "../privacyPage/Privacy";
 
 
 function ContactPage(){
@@ -69,9 +68,9 @@ function ContactPage(){
             </div>  
                 <div className="lastpage">
                     <div className="lastpage1">
-                    <Link to={<Privacy/>}><span>Privacy Policy </span> </Link>
+                    <a href="#privacy"><span>Privacy Policy </span> </a>
                     <p>|</p>
-                    <Link to={<Privacy/>}><span>Terms And Conditions</span></Link>
+                    <a href=""><span>Terms And Conditions</span></a>
                     </div>
                     <div className="lastpage2">
                             <div className="groupc2">
