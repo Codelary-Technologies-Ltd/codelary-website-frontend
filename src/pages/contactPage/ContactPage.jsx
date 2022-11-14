@@ -72,7 +72,7 @@ function ContactPage(){
                             <span>Privacy Policy </span>
                         </Link>
                         <p>|</p>
-                        <Link to={'/privacy-policy'}>
+                        <Link to={'/terms-of-use'}>
                             <span>Terms And Conditions</span>
                         </Link>
                     </div>
