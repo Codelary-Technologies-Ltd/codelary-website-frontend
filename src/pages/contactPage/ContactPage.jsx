@@ -1,4 +1,4 @@
-import React,{useRef, Link} from "react";
+import React,{useRef} from "react";
 import CustomInput from '../../components/customInput/CustomInput';
 import CustomButton from '../../components/customButton/CustomButton';
 import emailjs from '@emailjs/browser';
@@ -67,9 +67,9 @@ function ContactPage(){
             </div>  
                 <div className="lastpage">
                     <div className="lastpage1">
-                    <Link><span>Privacy Policy </span></Link> 
+                    <a href=""><span>Privacy Policy </span></a> 
                     <p>|</p>
-                    <Link><span>Terms And Conditions</span></Link>
+                    <a href=""><span>Terms And Conditions</span></a>
                     </div>
                     <div className="lastpage2">
                             <div className="groupc2">
