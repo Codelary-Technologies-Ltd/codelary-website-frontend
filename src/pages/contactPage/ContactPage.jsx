@@ -4,6 +4,7 @@ import CustomButton from '../../components/customButton/CustomButton';
 import emailjs from '@emailjs/browser';
 import { MapPin, Phone, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo, WhatsappLogo } from 'phosphor-react';
 import './ContactPage.css';
+import { Link } from 'react-router'
 
 
 function ContactPage(){
@@ -67,9 +68,9 @@ function ContactPage(){
             </div>  
                 <div className="lastpage">
                     <div className="lastpage1">
-                    <a href=""><span>Privacy Policy </span></a> 
+                    <Link to={}><span>Privacy Policy </span></Link> 
                     <p>|</p>
-                    <a href=""><span>Terms And Conditions</span></a>
+                    <Link><span>Terms And Conditions</span></Link>
                     </div>
                     <div className="lastpage2">
                             <div className="groupc2">
