@@ -2,9 +2,9 @@ import React,{useRef} from "react";
 import CustomInput from '../../components/customInput/CustomInput';
 import CustomButton from '../../components/customButton/CustomButton';
 import emailjs from '@emailjs/browser';
-import { MapPin, Phone, EnvelopeSimple, FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo, WhatsappLogo } from 'phosphor-react';
+import { MapPin, Phone, EnvelopeSimple, WhatsappLogo } from 'phosphor-react';
 import './ContactPage.css';
-import { Link } from 'react-router-dom'
+import Footer from '../../pages/footer/Footer';
 
 
 function ContactPage(){
@@ -66,36 +66,9 @@ function ContactPage(){
                     </div>
                 </form>
             </div>  
-                <div className="lastpage">
-                    <div className="lastpage2">
-                                <div className="groupc1">
-                                    <a href="https://www.facebook.com/profile.php?id=100087274729762"><p><FacebookLogo size={30} className = 'bluei' /></p></a>
-                                    <a href="https://www.linkedin.com/in/codelaryTech"><p><LinkedinLogo size={30} className = 'linkd' /></p></a>
-                                    <a href="https://www.instagram.com"><p><InstagramLogo size={30} className = 'insta'  /></p></a>
-                                    <a href="https://www.twitter.com/codelaryTech"><p><TwitterLogo size={30} className = 'twit' /></p></a>
-                                </div>
-                        </div>
-                    <div className="lastpage1">
-                        <Link to={'/privacy-policy'}>
-                            <span>Privacy Policy </span>
-                        </Link>
-                        <p>|</p>
-                        <Link to={'/terms-of-use'}>
-                            <span>Terms And Conditions</span>
-                        </Link>
-                    </div>
-                    <div className="lastpage2">
-                            <div className="groupc2">
-                                <a href="https://www.facebook.com/profile.php?id=100087274729762"><p><FacebookLogo size={30} className = 'bluei' /></p></a>
-                                <a href="https://www.linkedin.com/in/codelaryTech"><p><LinkedinLogo size={30} className = 'linkd' /></p></a>
-                                <a href="https://www.instagram.com"><p><InstagramLogo size={30} className = 'insta'  /></p></a>
-                                <a href="https://www.twitter.com/codelaryTech"><p><TwitterLogo size={30} className = 'twit' /></p></a>
-                            </div>
-                    </div>
-                    <div className="lastpage3">
-                        <span>&copy; 2022 Codelary Technologies Ltd. All Rights Reserved</span>
-                    </div>
-        </div>
+            <div>
+                <Footer/>
+            </div>
         </div>
     )
 }

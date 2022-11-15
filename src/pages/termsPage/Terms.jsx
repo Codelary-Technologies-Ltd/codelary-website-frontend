@@ -1,9 +1,13 @@
 import React from 'react'
 import './Terms.css'
+import NavBar from '../../pages/homePage/NavBar';
 
 function Terms() {
   return (
     <div>
+      <div>
+        <NavBar/>
+      </div>
         <div className='terms'>
           <h1>Terms & Conditions</h1>
           <p>

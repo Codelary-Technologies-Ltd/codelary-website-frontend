@@ -104,58 +104,13 @@
     cursor: pointer;
     color: white;
 }
-.bluei:hover{
-    color: #3b5998;
-    transition: ease-in .5s;
-}
-.linkd:hover{
-    color: #0e76a8;
-    transition: ease-in .5s;
-}
-.insta:hover{
-    color: #cd486b;
-    transition: ease-in .5s;
-}
-.twit:hover{
-    color: #1DA1F2;
-    transition: ease-in .5s;
-}
-.bluei, .linkd, .insta, .twit {
-    color: white;
-}
+
 textarea {
     background-color: transparent;
     border: 1px solid white;
     width: 100%;
 }
-.lastpage {
-    width: 90%;
-    margin: auto;
-    padding: 2rem;
-    border-top: 1px solid white;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.lastpage span {
-    font-size: small;
-    color: #AB7E5F;
-    font-weight: bolder;
-}
-.lastpage1 {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-}
-.lastpage1 span:hover {
-    color: white;
-    text-decoration: underline;
-    cursor: pointer;
-}
-.lastpage p {
-    margin: 0 1rem;
-    color: #AB7E5F;
-}
+
 
 @media (max-width:922px) {
     svg.contact-icon{
@@ -168,8 +123,7 @@ textarea {
         font-size: 14px;
     }
     .col-2c{
-        width: 40%;
-        
+        width: 40%; 
     }
     .formc{
         width: 50%;
@@ -185,6 +139,13 @@ textarea {
         width: 90%;
         margin: 0 auto;
     }
+    .col-2c .absc h1{
+        width: 60%;
+        margin: auto;
+        font-size: 1.3rem;
+        text-align: center;
+        border-bottom: 3px solid #AB7E5F;
+    }
     .formc{
         width: 90%;
         margin: 0 auto;
@@ -197,7 +158,7 @@ textarea {
         font-size: 20px;
     }
     .movec{
-        font-size: 18px;
+        font-size: 16px;
     }
 }
 @media (max-width:425px) {
@@ -208,94 +169,15 @@ textarea {
         font-size: 18px;
     }
     .movec{
-        font-size: 14px;
-    }
-}
-/* for footer */
-@media (max-width:1015px) {
-    .lastpage {
-        width: 100%;
-        margin: auto;
-        padding: 1.5rem;
-        border-top: 1px solid white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .lastpage span {
-        font-size: small;
-        color: #AB7E5F;
-        font-weight: bolder;
-    }
-    .lastpage1 {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .lastpage p {
-        margin: 0 1rem;
-        color: #AB7E5F;
-    }
-}
-@media (max-width:899px) {
-    .lastpage span {
         font-size: 12px;
-        color: #AB7E5F;
-        font-weight: bolder;
-    } 
-}
-@media (max-width:800px) {
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 80%;
-        margin: auto;
     }
 }
-@media (max-width:760px) {
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 100%;
-        margin: auto;
-    }
-}
-@media (max-width:750px) {
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 95%;
-        margin: auto;
-    }
-}
-@media (max-width:680px) {
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 125%;
-        margin: auto;
-    }
-}
-@media (max-width:622px) {
-    .lastpage span {
-        font-size: 8px;
-        color: #AB7E5F;
-        font-weight: bolder;
-    } 
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 100%;
-        margin: auto;
-    }
-}
-@media (max-width:529px) {
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 140%;
-        margin: auto;
-    }
-} 
+
 @media (max-width:320px) {
     .col-2c .absc h1{
         width: 65%;
         margin: auto;
-        font-size: 1.8rem;
+        font-size: 1.3rem;
         text-align: center;
         border-bottom: 3px solid #AB7E5F;
     }
@@ -304,21 +186,13 @@ textarea {
         margin-left: 20px;
     }
     .movec{
-        font-size: 11.07px;
+        font-size: 9.5px;
     }
     .contact-icon {
         width: 22px;
         height: 22px;
     }
-    .lastpage {
-        width: 100%;
-        margin: auto;
-        padding: 1.5rem;
-        border-top: 1px solid white;
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-    }
+    
     .groupc2{
         display: none;
         cursor: pointer;
@@ -331,16 +205,5 @@ textarea {
         width: 80%;
         margin: auto;
     }
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 18px;
-        height: 18px;
-        margin: auto;
-    }
-    .lastpage1 {
-        text-align: center;
-    }
-    .lastpage3 {
-        text-align: center;
-    }
+    
 }
