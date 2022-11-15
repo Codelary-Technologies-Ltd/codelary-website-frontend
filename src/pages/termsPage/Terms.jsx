@@ -1,6 +1,6 @@
 import React from 'react'
 import './Terms.css'
-import NavBar from '../../pages/homePage/NavBar';
+import NavBar from '../../components/Navbar/NavBar';
 
 function Terms() {
   return (
