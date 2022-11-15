@@ -1,16 +1,21 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
 .first-nav{
-    width: 90%;
+    width: 100%;
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
     top: 0;
-    left: 5%;
-    height: 150px;
+    left: 0;
+    height: 110px;
     z-index: 5;
-    opacity: 0.9;
+    /* opacity: 0.9; */
+    background-color: #283C61;
+    padding: 0 30px;
+    /* padding-left: 20px;
+    padding-right: 20px; */
+
 
 }
 .first-nav-bg {

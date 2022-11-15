@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../../assets/codelary4.png';
-import Hamburger from '../Hamburger';
+import Hamburger from '../../pages/Hamburger';
 import './NavBar.css'
 function NavBar() {
 
