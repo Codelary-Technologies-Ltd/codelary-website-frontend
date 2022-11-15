@@ -1,6 +1,6 @@
 import React from 'react'
 import './Privacy.css'
-import NavBar from '../../pages/homePage/NavBar';
+import NavBar from '../../components/Navbar/NavBar';
 
 function Privacy() {
   return (
@@ -10,7 +10,7 @@ function Privacy() {
       </div>
         <div className='privacy'>
           <h1>Privacy Policy for Codelary Technologies Ltd.</h1>
-          <p>At Codelary Technologies Ltd, accessible from <a href='https://codelarytechnologiesltd.netlify.app/'>https://codelarytechnologiesltd.netlify.app/</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Codelary Technologies Ltd and how we use it.</p>
+          <p>At Codelary Technologies Ltd, accessible from <a href='https://codelarytechnologiesltd.netlify.app/'>Codelary</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Codelary Technologies Ltd and how we use it.</p>
           <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
           <h1>General Data Protection Regulation (GDPR)</h1>
           <p>We are a Data Controller of your information.</p>
