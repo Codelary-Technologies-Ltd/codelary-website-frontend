@@ -179,7 +179,7 @@
 }
 @media (max-width:500px) {
     .abouthead h1 {
-        width: 40%;
+        width: 50%;
         margin: 2rem auto;
         text-align: center;
         font-size: xx-large;
@@ -197,10 +197,10 @@
 @media (max-width:540px) {
     .abouthead h1{
         margin: 0 auto 20px auto;
-        width: 40%;
+        width: 45%;
     }
 }
-@media (max-width:320px) {
+@media (max-width:370px) {
     .abouthead h1{
         margin: 0 auto 20px auto;
         width: 65%;
