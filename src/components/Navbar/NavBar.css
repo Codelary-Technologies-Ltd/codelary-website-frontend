@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+.first-nav{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 5%;
+    height: 150px;
+    z-index: 5;
+    opacity: 0.9;
+
+}
+.first-nav-bg {
+    background-color: #283C61;
+    z-index: 3;
+    width: 100%;
+    left: 0;
+    padding: 0 30px;
+    height: 100px;
+    /*
+    
+    padding: 25px 60px 10px 60px; */
+    /* position: absolute; */
+}
+.nav-flex a{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.codelary-logo{
+    width: 80px;
+    height: 80px;
+    /* border-radius: 50%; */
+}
+.logo-txt{
+    color: white;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+.nav-flex img{
+    background: transparent;
+}
+.spann { 
+    font-family: algerian;
+    font-size: larger;
+    font-weight: 900;
+    color: #AB7E5F;
+}
+.second-nav ul{
+    display: flex;
+    gap: 50px;
+    margin: 0;
+    padding-bottom: 15px;
+    padding-top: 15px;
+    color: white;
+    border-bottom: 1px solid #AB7E5F;
+}
+.second-nav li{
+    font-weight: 600;
+    font-size: 18px;
+}
+.second-nav ul :hover {
+    color: #AB7E5F;
+    cursor: pointer;
+}
+.my-ham {
+    display: none;
+}
+/* @media (max-width: 995px){
+ .logo-txt{
+    display: none;
+ }
+} */
+@media (max-width:790px) {
+    .second-nav{
+        display: none;
+     }
+     .my-ham{
+        display: block;
+     }
+     /* .logo-txt{
+        display: none;
+     } */
+}
+
+/* @media (max-width:520px) {
+    .logo-txt{
+        display: none;
+    }
+} */
+@media (max-width:320px) {
+    .nav-flex img{
+        background: transparent;
+        width: 60px;
+        height: 60px;
+    } 
+    .first-nav-bg {
+        background-color: #283C61;
+        z-index: 3;
+        width: 100%;
+        height: 100px;
+        padding: 25px 10px 5px 10px;
+    }
+    .logo-txt {
+        display: block;
+        font-size: 15px;
+    }
+    
+}
