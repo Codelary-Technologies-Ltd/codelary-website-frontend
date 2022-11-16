@@ -1,0 +1,60 @@
+.bluei:hover{
+    color: #3b5998;
+    transition: ease-in .5s;
+}
+.linkd:hover{
+    color: #0e76a8;
+    transition: ease-in .5s;
+}
+.insta:hover{
+    color: #cd486b;
+    transition: ease-in .5s;
+}
+.twit:hover{
+    color: #1DA1F2;
+    transition: ease-in .5s;
+}
+.bluei, .linkd, .insta, .twit {
+    color: white;
+    height: 30px;
+    width: 30px;
+}
+.lastpage {
+    width: 90%;
+    margin: auto;
+    padding: 10px 0;
+    border-top: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #283C61;
+}
+.lastpage span {
+    font-size: small;
+    color: #AB7E5F;
+    font-weight: bolder;
+}
+.lastpage1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.lastpage1 span:hover {
+    color: white;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.lastpage p {
+    margin: 0 1rem;
+    color: #AB7E5F;
+}
+/* for footer */
+@media (max-width:850px) {
+    .lastpage span {
+        font-size: 12px;
+        color: #AB7E5F;
+        font-weight: bolder;
+    } 
+}
