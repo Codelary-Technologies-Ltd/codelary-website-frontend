@@ -16,15 +16,19 @@
 }
 .bluei, .linkd, .insta, .twit {
     color: white;
+    height: 30px;
+    width: 30px;
 }
 .lastpage {
     width: 90%;
     margin: auto;
-    padding: 2rem;
+    padding: 10px 0;
     border-top: 1px solid white;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
 }
 .lastpage span {
     font-size: small;
@@ -46,105 +50,10 @@
     color: #AB7E5F;
 }
 /* for footer */
-@media (max-width:1015px) {
-    .lastpage {
-        width: 100%;
-        margin: auto;
-        padding: 1.5rem;
-        border-top: 1px solid white;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .lastpage span {
-        font-size: small;
-        color: #AB7E5F;
-        font-weight: bolder;
-    }
-    .lastpage1 {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .lastpage p {
-        margin: 0 1rem;
-        color: #AB7E5F;
-    }
-}
-@media (max-width:899px) {
+@media (max-width:850px) {
     .lastpage span {
         font-size: 12px;
         color: #AB7E5F;
         font-weight: bolder;
     } 
-}
-@media (max-width:800px) {
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 80%;
-        margin: auto;
-    }
-}
-@media (max-width:760px) {
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 100%;
-        margin: auto;
-    }
-}
-@media (max-width:750px) {
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 95%;
-        margin: auto;
-    }
-}
-@media (max-width:680px) {
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 125%;
-        margin: auto;
-    }
-}
-@media (max-width:622px) {
-    .lastpage span {
-        font-size: 8px;
-        color: #AB7E5F;
-        font-weight: bolder;
-    } 
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 100%;
-        margin: auto;
-    }
-}
-@media (max-width:529px) {
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 140%;
-        margin: auto;
-    }
-} 
-@media (max-width:320px){
-    .lastpage {
-        width: 100%;
-        margin: auto;
-        padding: 1.5rem;
-        border-top: 1px solid white;
-        display: block;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .bluei, .linkd, .insta, .twit {
-        color: white;
-        width: 18px;
-        height: 18px;
-        margin: auto;
-    }
-    .lastpage1 {
-        text-align: center;
-    }
-    .lastpage3 {
-        text-align: center;
-    }
 }
