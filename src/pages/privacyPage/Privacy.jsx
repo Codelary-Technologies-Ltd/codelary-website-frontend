@@ -1,7 +1,7 @@
 import React from 'react'
 import './Privacy.css'
 import NavBar from '../../components/Navbar/NavBar';
-import Footer from '../footer/Footer';
+import Footer from '../../components/Footer/Footer';
 
 function Privacy() {
   return (
