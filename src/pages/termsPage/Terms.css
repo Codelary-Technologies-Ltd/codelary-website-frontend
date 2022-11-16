@@ -2,8 +2,10 @@ body {
     background-color: #f6f7f9;
 }
 .terms {
-    width: 55%;
-    margin: 5% auto;
+    width: 80%;
+    margin-top: 130px;
+    margin-left: auto;
+    margin-right: auto;
     word-wrap: break-word;
     background-color: white;
     padding: 40px 75px;
@@ -13,11 +15,13 @@ body {
     font-size: 35px;
     font-weight: 600;
     padding-bottom: 10px;
+    text-align: center;
 }
 .terms h3 {
     font-size: 25px;
     font-weight: 600;
     padding-bottom: 10px;
+    text-align: center;
 }
 .terms p {
     font-size: 17px;
@@ -33,79 +37,37 @@ body {
     padding-bottom: 10px;
     padding-left: 25px;
 }
+@media (max-width:750px) {
+    .terms{
+        padding: 30px 40px;
+        width: 90%;
+    }
+}
 @media (max-width:500px) {
     .terms {
         width: 95%;
-        margin: 5% auto;
         word-wrap: break-word;
-        background-color: white;
         padding: 40px 20px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      }
-      .terms a {
-          color: blue;
-          text-decoration: underline;
-      }
-      .terms h1 {
-          font-size: 25px;
-          font-weight: 800;
-          padding-bottom: 10px;
-      }
-      .terms h3 {
-        font-size: 18px;
+    }
+    .terms h1 {
+        font-size: 20px;
         font-weight: 600;
         padding-bottom: 10px;
+        
     }
-      .terms p {
-          font-size: 13px;
-          padding-bottom: 20px;
-          font-weight: 700;
-      }
-      .terms ul {
-          list-style-type:circle ;
-      }
-      .terms li {
-          font-size: 10.5px;
-          font-weight: 600;
-          padding-bottom: 10px;
-          padding-left: 15px;
-      }
 }
 @media (max-width:320px) {
-    .terms {
-        width: 95%;
-        margin: 5% auto;
-        word-wrap: break-word;
-        background-color: white;
-        padding: 40px 20px;
-        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
-      }
-      .terms a {
-          color: blue;
-          text-decoration: underline;
-      }
-      .terms h1 {
-          font-size: 25px;
-          font-weight: 800;
-          padding-bottom: 10px;
-      }
-      .terms h3 {
-        font-size: 18px;
+    
+      .terms p {
+        font-size: 13px;
+        padding-bottom: 20px;
+        font-weight: 700;
+        }
+      .terms li {
+        font-size: 10.5px;
         font-weight: 600;
         padding-bottom: 10px;
-    }
-      .terms p {
-          font-size: 13px;
-          padding-bottom: 20px;
-          font-weight: 700;
-      }
-      .terms ul {
-          list-style-type:circle ;
-      }
-      .terms li {
-          font-size: 10.5px;
-          font-weight: 600;
-          padding-bottom: 10px;
-          padding-left: 15px;
+        padding-left: 15px;
+
       }
 }

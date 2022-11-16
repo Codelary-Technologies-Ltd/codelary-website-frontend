@@ -10,6 +10,7 @@ function App() {
       <BrowserRouter>
         <Routes>
           <Route path='/' element={<AllPages />}/>
+          <Route path='home' element={<AllPages />}/>
           <Route path='/privacy-policy' element={<Privacy />}/>
           <Route exact path='/terms-of-use' element={<Terms />}/>
         </Routes>
