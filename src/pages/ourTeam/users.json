@@ -75,5 +75,16 @@
       "about": "Project Scheduler/Software Developer",
       "profile":"view portfolio",
       "portfolio_link":"#"
+    },
+    {
+      "id": 8,
+      "name": "Muelji Damos",
+      "github_link": "https://github.com/MaryamSuleiman",
+      "linkd_link": "https://www.linkedin.com/in/muelji-damos-5709a5246",
+      "twitter_link": "https://www.twitter.com/waveboywavez",
+      "pic":"Pictures/8.jpeg",
+      "about": "Database Administrator/Software Developer",
+      "profile":"view portfolio",
+      "portfolio_link":"#"
     }
 ]
