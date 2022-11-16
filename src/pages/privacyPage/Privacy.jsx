@@ -1,6 +1,7 @@
 import React from 'react'
 import './Privacy.css'
 import NavBar from '../../components/Navbar/NavBar';
+import Footer from '../footer/Footer';
 
 function Privacy() {
   return (
@@ -72,6 +73,7 @@ function Privacy() {
             By using our website, you hereby consent to our Privacy Policy and agree to its terms.  
           </p>
         </div>
+        <Footer/>
     </div>
   )
 }

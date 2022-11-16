@@ -1,6 +1,7 @@
 import React from 'react'
 import './Terms.css'
 import NavBar from '../../components/Navbar/NavBar';
+import Footer from '../footer/Footer';
 
 function Terms() {
   return (
@@ -138,6 +139,7 @@ function Terms() {
           The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.
           </p>
         </div>
+        <Footer/>
     </div>
   )
 }
