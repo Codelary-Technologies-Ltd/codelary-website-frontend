@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import logo from '../../assets/codelary4.png';
 import Hamburger from '../Hamburger';
+import { Link } from 'react-router-dom';
 import './NavBar.css'
 function NavBar() {
 
@@ -22,27 +23,27 @@ function NavBar() {
   return (
       <div className={color ? 'first-nav first-nav-bg ': 'first-nav'}>
         <div className='nav-flex'>
-            <a href="#homepage-us">
+        <Link to="#homepage-us">
               <img src={logo} alt="codelary-logo" className='codelary-logo' />
               <p className='logo-txt'>odelary</p>
-            </a>
+          </Link>
         </div>            
         <nav className='second-nav'>
-          <ul>
+        <ul>
             <li>
-              <a href="#homepage-us"> Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#about-us"> About Us</a>
+              <Link to="/#about-us">About Us</Link>
             </li>
             <li>
-              <a href="#our-services-us"> Our Services</a>
+              <Link to="/#our-services-us">Our Services</Link>
             </li>
             <li>
-              <a href="#our-team-us"> Our Team</a>
+              <Link to="/#our-team-us">Our Team</Link>
             </li>
             <li>
-              <a href="#contact-us"> Contact Us</a>
+              <Link to="/#contact-us">Contact Us</Link>
             </li>
           </ul> 
         </nav>
