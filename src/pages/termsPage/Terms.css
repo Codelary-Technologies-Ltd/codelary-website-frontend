@@ -27,6 +27,7 @@ body {
     font-size: 17px;
     padding-bottom: 20px;
     font-weight: 100;
+    text-align: justify;
 }
 .terms ul {
     list-style-type: circle ;
