@@ -31,6 +31,7 @@
     position: absolute;
     color: white;
 } */
+
 .absc .groupc{
     margin-top: 30px;
 }
@@ -41,11 +42,10 @@
     margin: 0 auto;
 }
 .col-2c .absc h1{
-    width: 30%;
-    font-size: 2rem;
+    width: 40%;
+    font-size: 1.7rem;
     text-align: center;
     border-bottom: 3px solid #AB7E5F;
-    /* margin-top: 5rem; */
 }
 
 .colc {
@@ -113,6 +113,9 @@ textarea {
 
 
 @media (max-width:922px) {
+    .col-2c .absc h1{
+        width: 50%;
+    }
     svg.contact-icon{
         width: 20px;
     }
@@ -129,6 +132,12 @@ textarea {
         width: 50%;
     }
 }
+@media (max-width:780px) {
+    .col-2c .absc h1{
+        width: 68%;
+    }
+}
+
 @media (max-width:600px) {
     .smallContc{
         flex-direction: column;
@@ -140,9 +149,9 @@ textarea {
         margin: 0 auto;
     }
     .col-2c .absc h1{
-        width: 60%;
+        width: 40%;
         margin: auto;
-        font-size: 1.3rem;
+        font-size: 2.1rem;
         text-align: center;
         border-bottom: 3px solid #AB7E5F;
     }

@@ -23,7 +23,7 @@ function HomePage() {
               border: '1px solid #AB7E5F', 
               backgroundColor: 'transparent', 
               borderRadius:"8px",
-              padding:"5px 5px"
+              padding:"5px 20px"
             }} />
           </a>
           <a href="#our-services-us">
@@ -35,7 +35,7 @@ function HomePage() {
               paddingLeft: '1.8rem', 
               paddingRight: '1.8rem', 
               borderRadius:"8px",
-              padding:"5px 30px"
+              padding:"5px 35px"
             }}/>
           </a>
         </div>
