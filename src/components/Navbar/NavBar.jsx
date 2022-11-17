@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import logo from '../../assets/codelary4.png';
-import Hamburger from './Hamburger';
+import Hamburger from './HamburgerT';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
 function NavBar() {
