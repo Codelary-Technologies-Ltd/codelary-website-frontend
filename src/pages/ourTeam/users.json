@@ -86,5 +86,16 @@
       "about": "Database Administrator/Software Developer",
       "profile":"view portfolio",
       "portfolio_link":"#"
+    },
+    {
+      "id": 8,
+      "name": "Daniel Achilihu",
+      "github_link": "https://github.com/Achilihudaniel07",
+      "linkd_link": "https://www.linkedin.com/in/daniel-u-achilihu-633161150/",
+      "twitter_link": "https://twitter.com/dan__kesh77",
+      "pic":"Pictures/9.jpeg",
+      "about": "Software Developer",
+      "profile":"view portfolio",
+      "portfolio_link":"#"
     }
 ]
