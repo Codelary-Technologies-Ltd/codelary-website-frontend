@@ -7,25 +7,19 @@ function NavBar() {
 
   const [color, setColor] = useState(false)
   const colorChange = ()=>{
-    // if(window.scrollY > 520){
-    //   setColor(true)
-    // }
-    // else{
-    //   setColor(false)
-    // }
+
     window.scrollY > 520 ? setColor(true) : setColor(false)
   }
-
 
   window.addEventListener('scroll', colorChange)
 
 
   return (
-      <div className={color ? 'first-nav first-nav-bg ': 'first-nav'}>
+      <div className={color ? 'first-Nav first-nav-bg ': 'first-Nav'}>
         <div className='nav-flex'>
-        <Link to="#homepage-us">
-              <img src={logo} alt="codelary-logo" className='codelary-logo' />
-              <p className='logo-txt'>odelary</p>
+          <Link to="#homepage-us">
+            <img src={logo} alt="codelary-logo" className='codelary-logo' />
+            <p className='logo-txt'>odelary</p>
           </Link>
         </div>            
         <nav className='second-nav'>

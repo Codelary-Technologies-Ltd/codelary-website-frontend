@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-.first-nav{
+
+.first-Nav{
     width: 90%;
     margin: 0 auto;
     display: flex;
@@ -11,19 +12,15 @@
     height: 150px;
     z-index: 5;
     opacity: 0.9;
-
 }
 .first-nav-bg {
-    background-color: #283C61;
+    background-color: #283c61f3;
     z-index: 3;
     width: 100%;
     left: 0;
     padding: 0 30px;
     height: 100px;
-    /*
     
-    padding: 25px 60px 10px 60px; */
-    /* position: absolute; */
 }
 .nav-flex a{
     display: flex;
@@ -70,28 +67,18 @@
 .my-ham {
     display: none;
 }
-/* @media (max-width: 995px){
- .logo-txt{
-    display: none;
- }
-} */
+
 @media (max-width:790px) {
     .second-nav{
         display: none;
-     }
+    }
      .my-ham{
         display: block;
-     }
-     /* .logo-txt{
-        display: none;
-     } */
+    }
+
 }
 
-/* @media (max-width:520px) {
-    .logo-txt{
-        display: none;
-    }
-} */
+
 @media (max-width:320px) {
     .nav-flex img{
         background: transparent;
