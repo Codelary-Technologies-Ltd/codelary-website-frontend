@@ -16,11 +16,11 @@ function Footer() {
                 </div>
             </div> */}
             <div className="lastpage1">
-                <Link to='/privacy-policy' target='_blank' >
+                <Link to='/privacy-policy' >
                     <span>Privacy Policy </span>
                 </Link>
                 <p>|</p>
-                <Link to='/terms-of-use' target= '_blank'>
+                <Link to='/terms-of-use' >
                     <span>Terms And Conditions</span>
                 </Link>
             </div>
