@@ -34,16 +34,16 @@ function NavBar() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="home#about-us">About Us</a>
+              <Link to="/">About Us</Link>
             </li>
             <li>
-              <a href="home#our-services-us">Our Services</a>
+              <Link to="/">Our Services</Link>
             </li>
             <li>
-              <a href="home#our-team-us">Our Team</a>
+              <Link to="/">Our Team</Link>
             </li>
             <li>
-              <a href="home#contact-us">Contact Us</a>
+              <Link to="/">Contact Us</Link>
             </li>
           </ul> 
         </nav>

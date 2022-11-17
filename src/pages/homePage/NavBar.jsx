@@ -25,7 +25,7 @@ function NavBar() {
         <nav className='second-nav'>
         <ul>
             <li>
-              <Link to="/">Home</Link>
+              <a href="#homepage-us">Home</a>
             </li>
             <li>
               <a href="#about-us">About Us</a>
