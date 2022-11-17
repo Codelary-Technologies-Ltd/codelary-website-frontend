@@ -1,7 +1,7 @@
 import React from 'react'
 import './Footer.css'
 import { FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo} from 'phosphor-react';
-import { Link } from 'react-router-dom'
+
 
 function Footer() {
   return (
@@ -16,13 +16,13 @@ function Footer() {
                 </div>
             </div> */}
             <div className="lastpage1">
-                <Link to={'/privacy-policy'}>
+                <a href='/privacy-policy' target="_blank">
                     <span>Privacy Policy </span>
-                </Link>
+                </a>
                 <p>|</p>
-                <Link to={'/terms-of-use'}>
+                <a href='/terms-of-use' target="_blank">
                     <span>Terms And Conditions</span>
-                </Link>
+                </a>
             </div>
             <div className="lastpage2">
                     <div className="groupc2">
