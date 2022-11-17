@@ -16,16 +16,16 @@ function Hamburger() {
               <Link to="/">Home</Link>
             </li>
             <li>
-              <Link to="/#about-us">About Us</Link>
+              <a href="#about-us">About Us</a>
             </li>
             <li>
-              <Link to="/#our-services-us">Our Services</Link>
+              <a href="#our-services-us">Our Services</a>
             </li>
             <li>
-              <Link to="/#our-team-us">Our Team</Link>
+              <a href="#our-team-us">Our Team</a>
             </li>
             <li>
-              <Link to="/#contact-us">Contact Us</Link>
+              <a href="#contact-us">Contact Us</a>
             </li>
           </ul>     
         </div>
