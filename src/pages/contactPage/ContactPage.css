@@ -170,7 +170,10 @@ textarea {
         font-size: 16px;
     }
 }
-@media (max-width:425px) {
+@media (max-width:530px) {
+    .col-2c .absc h1{
+        width: 90%;
+    }
     svg.contact-icon{
         width: 27px;
     }
@@ -184,7 +187,6 @@ textarea {
 
 @media (max-width:320px) {
     .col-2c .absc h1{
-        width: 65%;
         margin: auto;
         font-size: 1.3rem;
         text-align: center;
