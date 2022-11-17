@@ -12,20 +12,20 @@ function Hamburger() {
           <span className='ham-span'></span>
           {/* <List size={50} /> */}
           <ul className='hamburger'>
-            <li>
-              <a href="#homepage-us">Home</a>
+          <li>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="#about-us">About Us</a>
+              <Link to="/">About Us</Link>
             </li>
             <li>
-              <a href="#our-services-us">Our Services</a>
+              <Link to="/">Our Services</Link>
             </li>
             <li>
-              <a href="#our-team-us">Our Team</a>
+              <Link to="/">Our Team</Link>
             </li>
             <li>
-              <a href="#contact-us">Contact Us</a>
+              <Link to="/">Contact Us</Link>
             </li>
           </ul>     
         </div>
