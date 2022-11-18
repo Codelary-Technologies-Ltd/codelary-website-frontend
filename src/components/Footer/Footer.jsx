@@ -3,7 +3,22 @@ import './Footer.css'
 import { FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo} from 'phosphor-react';
 import { Link } from 'react-router-dom';
 
-function Footer() {
+function Footer({privacy,terms}) {
+    if(privacy){
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth', 
+        });
+    }else if(terms){
+        window.scrollTo({
+            top: 0,
+            left: 0,
+            behavior: 'smooth', 
+        });
+    }
+
+
     
   return (
     <div>

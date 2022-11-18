@@ -84,7 +84,7 @@ function Privacy() {
             By using our website, you hereby consent to our Privacy Policy and agree to its terms.  
           </p>
         </div>
-        <Footer/>
+        <Footer privacy={true}/>
     </div>
   )
 }
