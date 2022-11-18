@@ -2,8 +2,19 @@ import React from 'react'
 import './Privacy.css'
 import NavBar from '../../components/Navbar/NavBar';
 import Footer from '../../components/Footer/Footer';
+import { useLocation } from 'react-router';
+import { useEffect } from 'react';
 
 function Privacy() {
+  const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth', 
+      });
+    }, [pathname]);
   return (
     <div>
       <div>
