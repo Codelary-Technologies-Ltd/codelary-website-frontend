@@ -42,7 +42,7 @@
     margin: 0 auto;
 }
 .col-2c .absc h1{
-    width: 40%;
+    width: 28%;
     font-size: 1.7rem;
     text-align: center;
     border-bottom: 3px solid #AB7E5F;
@@ -114,7 +114,7 @@ textarea {
 
 @media (max-width:922px) {
     .col-2c .absc h1{
-        width: 50%;
+        width: 40%;
     }
     svg.contact-icon{
         width: 20px;
@@ -134,7 +134,7 @@ textarea {
 }
 @media (max-width:780px) {
     .col-2c .absc h1{
-        width: 68%;
+        width: 60%;
     }
 }
 
@@ -149,7 +149,7 @@ textarea {
         margin: 0 auto;
     }
     .col-2c .absc h1{
-        width: 40%;
+        width: 38%;
         margin: auto;
         font-size: 2.1rem;
         text-align: center;
@@ -172,7 +172,7 @@ textarea {
 }
 @media (max-width:530px) {
     .col-2c .absc h1{
-        width: 90%;
+        width: 60%;
     }
     svg.contact-icon{
         width: 27px;
