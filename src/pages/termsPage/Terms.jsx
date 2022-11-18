@@ -2,8 +2,19 @@ import React from 'react'
 import './Terms.css'
 import NavBar from '../../components/Navbar/NavBar';
 import Footer from '../../components/Footer/Footer';
+import { useLocation } from 'react-router';
+import { useEffect } from 'react';
 
 function Terms() {
+  const { pathname } = useLocation();
+
+    useEffect(() => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth', 
+      });
+    }, [pathname]);
   return (
     <div>
       <div>
@@ -141,7 +152,7 @@ function Terms() {
           The limitations and prohibitions of liability set in this Section and elsewhere in this disclaimer: (a) are subject to the preceding paragraph; and (b) govern all liabilities arising under the disclaimer, including liabilities arising in contract, in tort and for breach of statutory duty.
           </p>
         </div>
-        <Footer/>
+        <Footer terms={true}/>
     </div>
   )
 }

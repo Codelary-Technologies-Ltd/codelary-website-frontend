@@ -1,18 +1,13 @@
 import React, { useState } from 'react';
 import logo from '../../assets/codelary4.png';
-import Hamburger from './HamburgerT';
+import Hamburger from './Hamburger';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
 function NavBar() {
 
   const [color, setColor] = useState(false)
   const colorChange = ()=>{
-    // if(window.scrollY > 520){
-    //   setColor(true)
-    // }
-    // else{
-    //   setColor(false)
-    // }
+
     window.scrollY > 520 ? setColor(true) : setColor(false)
   }
 
