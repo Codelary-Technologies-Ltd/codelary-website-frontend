@@ -3,8 +3,6 @@ import './Footer.css'
 import { FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo} from 'phosphor-react';
 import { Link } from 'react-router-dom';
 
-
-
 function Footer({privacy,terms}) {
     if(privacy){
         window.scrollTo({
@@ -20,8 +18,7 @@ function Footer({privacy,terms}) {
         });
     }
 
-
-    
+function Footer() {
   return (
     <div>
         <div className="lastpage">
@@ -31,6 +28,11 @@ function Footer({privacy,terms}) {
                 </Link>
                 <p>|</p>
                 <Link to='/terms-of-use'>
+            <Link to='/privacy-policy' >
+                    <span>Privacy Policy </span>
+                </Link>
+                <p>|</p>
+                <Link to='/terms-of-use' >
                     <span>Terms And Conditions</span>
                 </Link>
             </div>
