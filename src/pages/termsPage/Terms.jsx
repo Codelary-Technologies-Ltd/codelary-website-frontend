@@ -2,11 +2,10 @@ import React from 'react'
 import './Terms.css'
 import NavBar from '../../components/Navbar/NavBar';
 import Footer from '../../components/Footer/Footer';
-import { useLocation } from 'react-router';
+
 import { useEffect } from 'react';
 
 function Terms() {
-  const { pathname } = useLocation();
 
     useEffect(() => {
       window.scrollTo({
@@ -14,7 +13,7 @@ function Terms() {
         left: 0,
         behavior: 'smooth', 
       });
-    }, [pathname]);
+    }, []);
   return (
     <div>
       <div>
