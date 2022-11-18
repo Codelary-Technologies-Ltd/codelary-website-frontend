@@ -12,6 +12,12 @@ body {
     padding: 40px 75px;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.terms-bor{
+    /* width:45%; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .terms h1{
     color: #283C61;
     border-bottom: 3px solid #AB7E5F;
@@ -19,6 +25,7 @@ body {
     font-weight: 600;
     margin-bottom: 35px;
     text-align: center;
+    
 }
 .terms h3 {
     color: #AB7E5F;

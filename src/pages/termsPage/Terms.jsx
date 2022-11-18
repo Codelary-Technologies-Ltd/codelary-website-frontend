@@ -10,7 +10,9 @@ function Terms() {
         <NavBar/>
       </div>
         <div className='terms'>
-          <h1>Terms & Conditions</h1>
+          <div className='terms-bor'>
+            <h1>Terms & Conditions</h1>
+          </div>
           <p>
           Welcome to Codelary Technologies Ltd!
           </p>
