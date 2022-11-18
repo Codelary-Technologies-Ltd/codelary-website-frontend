@@ -172,7 +172,7 @@ textarea {
 }
 @media (max-width:530px) {
     .col-2c .absc h1{
-        width: 80%;
+        width: 70%;
     }
     svg.contact-icon{
         width: 27px;
