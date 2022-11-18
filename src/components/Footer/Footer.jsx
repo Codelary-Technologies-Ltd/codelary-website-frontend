@@ -4,14 +4,9 @@ import { FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo} from 'phosphor-
 import { Link } from 'react-router-dom';
 
 
-function Footer({privacy,terms}) {
-    if(privacy){
-        window.scrollTo({
-            top: 0,
-            left: 0,
-            behavior: 'smooth', 
-        });
-    }else if(terms){
+
+function Footer() {
+    function onScrollTop(){
         window.scrollTo({
             top: 0,
             left: 0,
@@ -22,11 +17,11 @@ function Footer({privacy,terms}) {
     <div>
         <div className="lastpage">
             <div className="lastpage1">
-                <Link to='/privacy-policy'>
+                <Link to='/privacy-policy' onClick={onScrollTop}>
                     <span>Privacy Policy </span>
                 </Link>
                 <p>|</p>
-                <Link to='/terms-of-use' >
+                <Link to='/terms-of-use'  onClick={onScrollTop}>
                     <span>Terms And Conditions</span>
                 </Link>
             </div>
