@@ -2,8 +2,27 @@ import React from 'react'
 import './Footer.css'
 import { FacebookLogo, LinkedinLogo, InstagramLogo, TwitterLogo} from 'phosphor-react';
 import {Link} from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
+
 
 function Footer() {
+
+  function ScrollToTop() {
+    const { pathname } = useLocation();
+  
+    useEffect(() => {
+      window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: 'smooth', 
+      });
+    }, [pathname]);
+  
+    return null;
+  }
+  
+
   return (
     <div>
         <div className="lastpage">
@@ -16,13 +35,17 @@ function Footer() {
                 </div>
             </div> */}
             <div className="lastpage1">
-                <Link to='/privacy-policy' >
+                <Link to='/privacy-policy' onClick={ScrollToTop()} pathname='/privacy-policy'>
                     <span>Privacy Policy </span>
                 </Link>
                 <p>|</p>
-                <Link to='/terms-of-use' >
+                <Link to='/terms-of-use' onClick={ScrollToTop()} pathname='/terms-of-use'>
                     <span>Terms And Conditions</span>
                 </Link>
+
+                <Link to='/terms-of-use' onClick={ScrollToTop()} pathname='/terms-of-use' >
+                <p>ABOUT</p>
+              </Link>
             </div>
             <div className="lastpage2">
                     <div className="groupc2">
