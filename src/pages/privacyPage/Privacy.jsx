@@ -10,7 +10,9 @@ function Privacy() {
         <NavBar/>
       </div>
         <div className='privacy'>
-          <h1 className='h1-privacy'>Privacy Policy for Codelary Technologies Ltd.</h1>
+          <div className='div-h1'>
+            <h1 className='h1-privacy'>Privacy Policy for Codelary Technologies Ltd.</h1>
+          </div>
           <p>At Codelary Technologies Ltd, accessible from <a href='https://codelarytechnologiesltd.netlify.app/'>Codelary</a>, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by Codelary Technologies Ltd and how we use it.</p>
           <p>If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us.</p>
           <h2>General Data Protection Regulation (GDPR)</h2>

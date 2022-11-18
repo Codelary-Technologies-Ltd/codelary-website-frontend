@@ -12,6 +12,11 @@ body {
   padding: 40px 75px;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+.div-h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .h1-privacy {
     color: #283C61;
     border-bottom: 3px solid #AB7E5F;
