@@ -13,7 +13,7 @@ function AllPages() {
       <HomePage/>
       <AboutPage/>
       <OurServices/>
-      <TeamPage/>
+      {/* <TeamPage/> */}
       <ContactPage/>
     </div>
   )
