@@ -32,9 +32,9 @@ function NavBar() {
             <li>
               <a href="#our-services-us">Our Services</a>
             </li>
-            <li>
+            {/* <li>
               <a href="#our-team-us">Our Team</a>
-            </li>
+            </li> */}
             <li>
               <a href="#contact-us">Contact Us</a>
             </li>
